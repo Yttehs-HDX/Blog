@@ -21,6 +21,12 @@ if ! [ command -v hexo ]; then
 	npm install
 fi
 
+# install/update dependencies
+npm install hexo-theme-redefine@latest
+npm install hexo-generator-searchdb --save
+npm install hexo-wordcount
+npm install nodejieba@2.5.2
+
 # build site
 echo -e "${GREEN}Building site...${RESET}"
 hexo generate
