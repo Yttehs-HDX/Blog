@@ -25,6 +25,6 @@
     "hexo-theme-landscape": "^1.0.0",
     "hexo-theme-redefine": "^2.6.1",
     "hexo-wordcount": "^6.0.1",
-    "nodejieba": "^2.5.2"
+    "nodejieba": "^2.6.0"
   }
 }
