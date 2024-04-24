@@ -8,4 +8,4 @@ Shetty Yttehs's personal blog
 
 # URL
 
-[blog.shettyyttehs.org](blog.shettyyttehs.org)
+[blog.shettyyttehs.org](https://blog.shettyyttehs.org)
