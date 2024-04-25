@@ -505,7 +505,7 @@ systemctl enable NetworkManager
 
 ## Enjoy
 
-### Configurations!
+### 🎉🎉🎉 Configurations! 🎉🎉🎉
 
 Installation is over.
 
@@ -514,3 +514,7 @@ Installation is over.
 ```bash
 reboot
 ```
+
+## References
+
+- [ArchWiki](https://wiki.archlinux.org/title/installation_guide)
