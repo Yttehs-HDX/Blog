@@ -2,9 +2,17 @@
 title: ArchLinux Installation Guide
 date: 2024-04-25 18:30:08
 tags: [Linux, Arch, ArchLinux, Guide]
+thumbnail: /2024/04/25/archlinux-installation-guide/head.png
+excerpt: Install ArchLinux in your computer.
 ---
 
 ## Before Reading
+
+### Why Use ArchLinux
+
+- Just make a joke 🤣.
+
+![image](why_use_archlinux.jpg)
 
 ### Errata
 
@@ -45,7 +53,7 @@ Download or install [``Ventoy``](https://www.ventoy.net/en/download.html), [``Ru
 
 2. If not, use [``DiskGenius``](https://www.diskgenius.com) or other tools.
 
-3. [STFW](www.google.com) for more information.
+3. [STFW](https://www.google.com) for more information.
 
 #### _Note: Backup date before modify partitions._
 
@@ -61,7 +69,7 @@ Download or install [``Ventoy``](https://www.ventoy.net/en/download.html), [``Ru
 
 Waiting the boot progress, then get a shell from ArchLinux installation image.
 
-### Tips: Make use of **tab completion** from shell.
+#### Tips: Make use of **tab completion** from shell.
 
 ## Check Environment
 
@@ -159,7 +167,7 @@ mkswap      # create a swap file system on a disk or partition
 # example: mkswap /dev/sda2
 ```
 
-- Do not know how to partition? [STFW](www.google.com) and RTFM.
+- Do not know how to partition? [STFW](https://www.google.com) and RTFM.
 
 2. Mounting partitions
 
@@ -207,7 +215,7 @@ lsblk -f
 
 ### Install Basic Packages
 
-- Ypu may need to wait for a while.
+- You may need to wait for a while.
 
 ```bash
 pacstrap /mnt linux linux-headers linux-firmware base base-devel vim bash-completion iwd dhcpcd
@@ -247,7 +255,7 @@ cat /mnt/etc/fstab
 arch-chroot /mnt
 ```
 
-### Tips: Use fish shell to enjoy the powerful auto-completion
+#### Tips: Use fish shell to enjoy the powerful auto-completion
 
 ```bash
 pacman -S fish  # install if not exits
@@ -269,8 +277,26 @@ systemctl enable iwd dhcpcd
 
 ### Setup user root
 
+1. Set password for root.
+
 ```bash
 passwd root
+```
+
+2. Modify skel files.
+
+```bash
+vim /etc/skel/.bashrc
+```
+
+Add the following line at the very bottom:
+
+```
+export EDITOR='vim'
+```
+
+```bash
+cp -a /etc/skel/. ~
 ```
 
 ### Exit Chroot Environment
@@ -304,9 +330,10 @@ timedatectl set-ntp true
 ### Setup Locale
 
 ```bash
-# uncomment specific locales
 vim /etc/locale.gen
 ```
+
+Uncomment specific locales:
 
 ```
 # example
@@ -344,28 +371,6 @@ Add the following lines at the very bottom:
 127.0.0.1   localhost
 ::1         localhost
 127.0.1.1   <hostname> <hostname>.localdomain
-```
-
-### Modify Skel Files
-
-```bash
-vim /etc/skel/.bashrc
-```
-
-Add the following line at the very bottom:
-
-```
-export EDITOR='vim'
-```
-
-```bash
-cp -a /etc/skel/. ~
-```
-
-Reboot and connect to [network](#Connect-to-Network-1).
-
-```
-reboot
 ```
 
 ## Add User
@@ -428,12 +433,18 @@ vim /etc/pacman.conf
 
 ## Install Drivers
 
-### Install Intel Drivers
+### Install GPU Drivers
 
-#### _Note: This is Intel CPU only, if you are using AMD CPU, please [STFW](www.google.com)._
+Intel Drivers:
 
 ```bash
-pacman -S intel-ucode mesa lib32-mesa vulkan-intel lib32-vulkan-intel intel-media-driver
+pacman -S intel-ucode mesa lib32-mesa vulkan-intel lib32-vulkan-intel intel-media-driver libva-intel-driver lib32-libva-intel-driver
+```
+
+AMD Drivers:
+
+```bash
+pacman -S amd-ucode mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon libva-mesa-driver lib32-libva-mesa-driver mesa-vdpau lib32-mesa-vdpau
 ```
 
 ### Install Media Drivers
@@ -444,7 +455,7 @@ pacman -S sof-firmware
 pacman -S pipeware pipeware-alsa pipeware-audio pipeware-pulse pipeware-jack
 ```
 
-### Install Nvidia Drivers
+### Install Nvidia Drivers ( Optional )
 
 #### _Note: ``ArchWiki`` is better to guide [how to install Nvidia drivers](https://wiki.archlinux.org/title/NVIDIA)._
 
@@ -472,6 +483,12 @@ Other kernels:
 
 ```bash
 pacman -S nvidia-dkms
+```
+
+3. Install VA-API implementation.
+
+```bash
+pacman -S libva-nvidia-driver
 ```
 
 - If you are using laptop with both ``integrated graphics`` card and ``Nvidia graphic card``:
@@ -514,6 +531,26 @@ Installation is over.
 ```bash
 reboot
 ```
+
+### My Custom Linux Configurations
+
+- Those are my personal configs, just modify them to suit your needs.
+
+#### [zpacman](https://github.com/Yttehs-HDX/zpacman)
+
+A simple, small omz plugin manager.
+
+#### [Neovim-config](https://github.com/Yttehs-HDX/Neovim-config)
+
+My custom neovim configuration.
+
+#### [Tmux-config](https://github.com/Yttehs-HDX/Tmux-config)
+
+My custom tmux configuration.
+
+#### [Ranger-config](https://github.com/Yttehs-HDX/Ranger-config)
+
+My custom ranger configuration.
 
 ## References
 

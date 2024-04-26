@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Shetty 的小窝
+title: Shetty's Blog
 subtitle: Shetty Yttehs's Blog
 description: Shetty Yttehs's personal blog
 keywords: [blog, site, Shetty, Yttehs, Yttehs-HDX]
 author: Shetty Yttehs
-language: zh-CN
+language: en-US
 timezone: Asia/Shanghai
 
 # URL
@@ -40,7 +40,10 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
+marked:
+  prependRoot: true
+  postAsset: true
 relative_link: false
 future: true
 syntax_highlighter: highlight.js
