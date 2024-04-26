@@ -33,13 +33,13 @@ My computer: Asus Rog Strix G16
 
 ## Create a Boot Disk
 
-### Download boot disk maker
+### Download Boot Disk Maker
 
 Download or install [``Ventoy``](https://www.ventoy.net/en/download.html), [``Rufus``](https://rufus.ie) ( Windows only ), [``balenaEtcher``](https://etcher.balena.io) or any other boot disk maker.
 
 - I prefer using Ventoy due to its multiple iso support.
 
-### Flash ArchLinux installation image
+### Flash ArchLinux Installation Image
 
 1. Download ArchLinux iso from [``Official``](https://archlinux.org/download) or [``tuna``](https://mirrors.tuna.tsinghua.edu.cn/archlinux/iso/latest) ( Recommended for Chinese users ).
 
