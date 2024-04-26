@@ -217,11 +217,11 @@ navbar:
     # Preload search data when the page loads
     preload: true
   tags:
-    Tags: #取名随意
+    TAGS: #取名随意
       icon: fa-solid fa-tags #图标
       path: /tags/ #链接
   categories:
-    Categories: #取名随意
+    CATEGORIES: #取名随意
         icon: fa-solid fa-folder #图标
         path: /categories/ #链接
 # NAVIGATION BAR <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
