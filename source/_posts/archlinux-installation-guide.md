@@ -69,7 +69,7 @@ Download or install [``Ventoy``](https://www.ventoy.net/en/download.html), [``Ru
 
 Waiting the boot progress, then get a shell from ArchLinux installation image.
 
-#### Tips: Make use of **tab completion** from shell.
+#### _Tips: Make use of **tab completion** from shell._
 
 ## Check Environment
 
@@ -255,7 +255,7 @@ cat /mnt/etc/fstab
 arch-chroot /mnt
 ```
 
-#### Tips: Use fish shell to enjoy the powerful auto-completion
+#### _Tips: Use fish shell to enjoy the powerful auto-completion._
 
 ```bash
 pacman -S fish  # install if not exits
@@ -551,6 +551,10 @@ My custom tmux configuration.
 #### [Ranger-config](https://github.com/Yttehs-HDX/Ranger-config)
 
 My custom ranger configuration.
+
+#### [.bashrc](https://gist.github.com/Yttehs-HDX/e342d2f7fcd0e7624a2239aa2f1dbe93)
+
+My custom .bashrc.
 
 ## References
 
