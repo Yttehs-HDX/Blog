@@ -31,10 +31,10 @@ Before delving into the text, it's important to note that there may be some **gr
 
 - My environment:
 
-| Type     | Server | Client    |
-|----------|--------|-----------|
-| Device   | Vps    | ArchLinux |
-| Platform | CentOS | Linux     |
+| Type     | Server            | Client               |
+|----------|-------------------|----------------------|
+| Device   | Vps ( CentOS )    | Laptop ( ArchLinux ) |
+| Platform | Linux             | Linux                |
 
 ## Download Frp Tools
 
