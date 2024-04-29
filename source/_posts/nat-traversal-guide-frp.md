@@ -146,11 +146,11 @@ sudo systemctl start frpc
 
 ## Usage
 
-In any terminal of device with Internet connection.
+In terminal of any device with Internet connection.
 
 ```bash
 ssh -oPort=6000 <user_name>@<host_name>
-# user from client
+# user_name from client
 # host_name of server
 ```
 
