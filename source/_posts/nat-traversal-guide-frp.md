@@ -127,7 +127,7 @@ sudo systemctl start sshd
 nohup ./frps -c frps.toml   # run on background
 ```
 
-- ArchLinux:
+- If you are using ArchLinux:
 
 ```bash
 sudo systemctl start frps
@@ -139,6 +139,8 @@ sudo systemctl start frps
 ./frpc -c frpc.toml         # run
 nohup ./frpc -c frpc.toml   # run on background
 ```
+
+- If you are using ArchLinux:
 
 ```bash
 sudo systemctl start frpc
