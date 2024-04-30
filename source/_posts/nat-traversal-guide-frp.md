@@ -2,6 +2,7 @@
 title: NAT Traversal Guide - Frp
 date: 2024-04-29 10:07:58
 tags: [NAT Traversal,Frp, Guide]
+category: [Guide, Tools]
 ---
 
 ## Before Reading

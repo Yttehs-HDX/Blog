@@ -2,6 +2,7 @@
 title: ArchLinux Installation Guide
 date: 2024-04-25 18:30:08
 tags: [Linux, Arch, ArchLinux, Guide]
+category: [Guide, Linux]
 thumbnail: /2024/04/25/archlinux-installation-guide/head.png
 excerpt: Install ArchLinux in your computer.
 ---
