@@ -60,9 +60,9 @@ Download or install [``Ventoy``](https://www.ventoy.net/en/download.html), [``Ru
 
 ## Configure BIOS Settings
 
-1. Disable ``Fast Boot`` and ``Secure Boot``
+1. Disable ``Fast Boot`` and ``Secure Boot``.
 
-2. Select ``USB Device`` as the first startup item
+2. Select ``USB Device`` as the first startup item.
 
 ## Reboot Computer to Boot Disk
 
@@ -97,7 +97,7 @@ station wlan0 connect <wifi_ssid>   # specific Wifi SSID
 exit
 ```
 
-2. Test the network
+2. Test the network.
 
 ```bash
 ping archlinux.org -c 4
@@ -148,7 +148,7 @@ Check partitions
 lsblk
 ```
 
-1. Start partitioning
+1. Start partitioning.
 
 | Common Mounting Points    |
 |---------------------------|
@@ -170,7 +170,7 @@ mkswap      # create a swap file system on a disk or partition
 
 - Do not know how to partition? [STFW](https://www.google.com) and RTFM.
 
-2. Mounting partitions
+2. Mounting partitions.
 
 Assume this is the partition result:
 
@@ -206,7 +206,7 @@ umount /dev/sda<number>
 umount -R /mnt
 ```
 
-3. Check the partition
+3. Check the partition.
 
 ```bash
 lsblk -f
@@ -460,13 +460,21 @@ pacman -S pipeware pipeware-alsa pipeware-audio pipeware-pulse pipeware-jack
 
 #### _Note: ``ArchWiki`` is better to guide [how to install Nvidia drivers](https://wiki.archlinux.org/title/NVIDIA)._
 
+#### _Note: Backup before install._
+
+```bash
+# example
+# install timeshift first
+sudo timeshift --create
+```
+
 1. Check kernel category.
 
 ```bash
 uname -r
 ```
 
-2. Install drivers
+2. Install drivers.
 
 If use kernel linux:
 
@@ -523,7 +531,7 @@ systemctl enable NetworkManager
 
 ## Enjoy
 
-### 🎉🎉🎉 Configurations! 🎉🎉🎉
+### 🎉🎉🎉 Congratulations! 🎉🎉🎉
 
 Installation is over.
 
