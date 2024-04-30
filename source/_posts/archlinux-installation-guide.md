@@ -561,7 +561,7 @@ My custom tmux configuration.
 
 My custom ranger configuration.
 
-#### [.bashrc](https://gist.github.com/Yttehs-HDX/e342d2f7fcd0e7624a2239aa2f1dbe93)
+#### [.bashrc](https://gist.github.com/Yttehs-HDX/093b22497f1a959ad02f2375e333bc3a)
 
 My custom .bashrc.
 
