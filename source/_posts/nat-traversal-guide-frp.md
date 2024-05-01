@@ -47,6 +47,8 @@ Download at both server and client.
 
 - If you are using ArchLinux:
 
+Add [``archlinuxcn``](https://www.archlinuxcn.org/archlinux-cn-repo-and-mirror) source first ( At **/etc/pacman.conf** ).
+
 For server:
 
 ```bash
