@@ -6,6 +6,10 @@ Shetty Yttehs's personal blog
 
 ``Theme``: Redefine
 
-# URL
+## URL
 
 [blog.shettyyttehs.org](https://blog.shettyyttehs.org)
+
+## License
+
+MIT
