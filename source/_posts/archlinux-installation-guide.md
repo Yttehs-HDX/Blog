@@ -9,6 +9,8 @@ excerpt: Install ArchLinux in your computer.
 
 ## Before Reading
 
+Head picture is the art work [滚挂的Arch](https://www.pixiv.net/artworks/113984765) by Glowing Bric@Pixiv.
+
 ### Why Use ArchLinux
 
 - Just make a joke 🤣.
