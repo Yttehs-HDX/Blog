@@ -1,0 +1,11 @@
+- links_category: Friends
+  has_thumbnail: false
+  list:
+    - name: Cai1Hsu
+      link: https://blog.cai1hsu.me
+      description: Cai1Hsu's blog
+      avatar: https://blog.cai1hsu.me/images/avatar.webp
+    - name: Eviarch
+      link: http://eviarch.top
+      description: Eviarch's blog
+      avatar: http://eviarch.top/wp-content/uploads/2023/11/%E9%93%83%E8%8A%BD%E4%B9%8B%E6%97%85%E5%A4%A7%E8%87%A3.jpg

@@ -203,6 +203,10 @@ navbar:
     #     Github: https://github.com/Yttehs-HDX/Blog
     #     Blog: https://ohevan.com
     #     Friends: /friends
+    Links:
+        icon: fa-solid fa-link
+        submenus:
+          Friends: /links
     # Links: 
     #   icon: fa-regular fa-link
     #   submenus:
