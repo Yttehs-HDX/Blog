@@ -2,9 +2,9 @@
 
 Shetty Yttehs's personal blog
 
-``Frame``: Hexo
+Frame: `Hexo`
 
-``Theme``: Redefine
+Theme: `Redefine`
 
 ## URL
 
