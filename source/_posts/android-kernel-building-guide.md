@@ -2,7 +2,7 @@
 title: Android Kernel Building Guide
 date: 2024-06-01 16:47:33
 tags: [Guide, Android, Kernel, Linux]
-category: [Guild, Android, Kernel]
+category: [Guide, Android, Kernel]
 thumbnail: /2024/06/01/android-kernel-building-guide/head.jpg
 expert: Building an Android Kernel
 ---
