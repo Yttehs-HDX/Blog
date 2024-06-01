@@ -9,6 +9,8 @@ expert: Building an Android Kernel
 
 ## Before Reading
 
+Head picture is the art work [あんどろい子](https://www.pixiv.net/artworks/29919698) by mao@Pixiv.
+
 ### Errata
 
 Before delving into the text, it's important to note that there may be some **grammar or syntax errors**  present. This could be due to translation errors, typing mistakes, or the author's unique writing style ( I'm a Chinese native speaker 😅 ).
