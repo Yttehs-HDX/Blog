@@ -25,7 +25,7 @@ fi
 npm install hexo-theme-redefine@latest
 npm install hexo-generator-searchdb --save
 npm install hexo-wordcount
-npm install nodejieba@2.5.2
+npm install nodejieba
 
 # build site
 echo -e "${GREEN}Building site...${RESET}"
