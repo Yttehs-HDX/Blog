@@ -26,6 +26,7 @@ npm install hexo-theme-redefine@latest
 npm install hexo-generator-searchdb --save
 npm install hexo-wordcount
 npm install nodejieba
+npm install hexo-all-minifier
 
 # build site
 echo -e "${GREEN}Building site...${RESET}"
