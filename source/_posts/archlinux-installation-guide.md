@@ -3,7 +3,7 @@ title: ArchLinux Installation Guide
 date: 2024-04-25 18:30:08
 tags: [Linux, Arch, ArchLinux, Guide]
 category: [Guide, Linux]
-thumbnail: /2024/04/25/archlinux-installation-guide/head.png
+thumbnail: /2024/04/25/archlinux-installation-guide/head.webp
 excerpt: Install ArchLinux in your computer.
 ---
 
@@ -15,7 +15,7 @@ Head picture is the art work [滚挂的Arch](https://www.pixiv.net/artworks/1139
 
 - Just make a joke 🤣.
 
-![image](why_use_archlinux.jpg)
+![image](why_use_archlinux.webp)
 
 ### Errata
 

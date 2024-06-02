@@ -17,7 +17,7 @@ Map the port of the internal network device to the external network device.
 
 Architecture ( From Github ):
 
-![architecture](architecture.png)
+![architecture](architecture.webp)
 
 ### Errate
 
