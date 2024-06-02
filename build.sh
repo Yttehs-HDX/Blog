@@ -15,11 +15,8 @@ GREEN='\033[0;32m'
 RESET='\033[0m'
 
 # install hexo if not found
-if [ command -v hexo &> /dev/null ]; then
-	echo -e "${RED}hexo not found${RESET}"
-	npm install -g hexo-cli
-	npm install
-fi
+npm install -g hexo-cli
+npm install
 
 # install/update dependencies
 npm install hexo-theme-redefine@latest
