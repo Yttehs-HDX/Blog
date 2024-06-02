@@ -259,7 +259,7 @@ It may takes a very long time.
 In my PC, it costs **2m 51s** .
 {% endnotel %}
 
-## Output files
+## Output Files
 
 The kernel binary files is at `kernel_root/$O/arch/$ARCH/boot` .
 
@@ -282,7 +282,7 @@ Output files may be:
 
 ### Clone AnyKernel3 Repo
 
-### Write an pakage script
+### Write an Pakage Script
 
 Choose one of Images ( `Image.gz-dtb` > `Image.gz` > `Image` ) and `dtbo.img` ( Optional, may result in bugs ) to package.
 
@@ -328,7 +328,7 @@ sudo pacman -S android-tools # install first if adb is not found
 adb reboot recovery
 ```
 
-#### ***Warning: backup `boot.img` and `dtbo.img` before flash***
+#### ***Warning: Backup `boot.img` and `dtbo.img` before flash.***
 
 On the device: choose adb sideload.
 
