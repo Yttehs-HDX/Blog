@@ -4,7 +4,7 @@ date: 2024-06-01 16:47:33
 tags: [Guide, Android, Kernel, Linux]
 category: [Guide, Android, Kernel]
 thumbnail: /2024/06/01/android-kernel-building-guide/head.webp
-expert: Building an Android Kernel
+excerpt: Building an Android Kernel
 ---
 
 ## Before Reading
