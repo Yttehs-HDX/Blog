@@ -1,7 +1,7 @@
 ---
 title: 操作系统（OS）内核学习路线
 date: 2024-06-02 23:44:19
-tags: [OS, Guide, Kernel]
+tags: [Guide,OS, Kernel]
 category: [Guide, OS, Kernel]
 thumbnail: /2024/06/02/os-kernel-learning-route/head.webp
 excerpt: 操作系统 OS 内核赛道零基础学习路线
@@ -32,7 +32,7 @@ excerpt: 操作系统 OS 内核赛道零基础学习路线
 选择 `RISC-V` 或 `Loongson` 架构之一进行内核开发。
 
 {% notel yellow Warning %}
-作者所在的团队选择了 `RISC-V` 架构，以下部分只包含 `RISCV` 架构。
+作者所在的团队选择了 `RISC-V` 架构，以下部分只包含 `RISC-V` 架构。
 {% endnotel %}
 
 ### 初赛
