@@ -29,15 +29,15 @@ excerpt: 操作系统 OS 内核赛道零基础学习路线
 
 ## 比赛说明
 
-*选择 `RISC-V` 或 `Loongson` 架构之一进行内核开发。*
+*选择 `RISC-V` 或 `LoongArch` 架构之一进行内核开发。*
 
 ### RISC-V
 
-[RISC-V](https://riscv.org) 是一种开放的、可扩展的指令集架构（ISA），它遵循精简指令集计算机（Reduced Instruction Set Computer，RISC）原则。RISC-V 的设计目标是提供一个灵活、高效且易于实现的 ISA，这使得它成为嵌入式系统和其他低功耗设备中的理想选择。
+[RISC-V](https://riscv.org) 是一种开放的、可扩展的 **指令集架构（ISA）** ，它遵循 **精简指令集计算机（Reduced Instruction Set Computer，RISC）** 原则。RISC-V 的设计目标是提供一个 **灵活** 、 **高效** 且 **易于实现** 的 ISA，这使得它成为 **嵌入式系统** 和其他 **低功耗设备** 中的理想选择。
 
-### Loongson
+### LoongArch
 
-[Loongson](https://www.loongson.cn) 是中国国内研发的一款基于 RISC-V 架构的中央处理器（CPU）。它由中国科学院电子学研究所（IECAS）的研究团队开发，并由中国的 Loongson Technology Co., Ltd. 公司负责生产和销售。Loongson CPU 旨在满足中国国内对自主可控、高性能计算能力的需求，同时也支持国际标准的软件开发和运行环境。
+[LoongArch](https://www.loongson.cn/EN/application/list?id=39) 是一款由中国的长安科技（Loongson）公司开发的 64 位架构的 **中央处理器（CPU）** 。它旨在替代国际上主流的 x86 架构，特别是在面向中国市场的计算机和服务器设备中。LoongArch 采用了 **RISC 设计原则** ，与 ARM 、MIPS 等其他 RISC 架构类似，但具有其独特的 **指令集** 和 **架构设计** 。
 
 {% notel yellow Warning %}
 作者所在的团队选择了 `RISC-V` 架构，以下部分只包含 `RISC-V` 架构。
