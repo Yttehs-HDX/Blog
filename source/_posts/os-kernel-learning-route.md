@@ -29,7 +29,15 @@ excerpt: 操作系统 OS 内核赛道零基础学习路线
 
 ## 比赛说明
 
-选择 `RISC-V` 或 `Loongson` 架构之一进行内核开发。
+*选择 `RISC-V` 或 `Loongson` 架构之一进行内核开发。*
+
+### RISC-V
+
+[RISC-V](https://riscv.org) 是一种开放的、可扩展的指令集架构（ISA），它遵循精简指令集计算机（Reduced Instruction Set Computer，RISC）原则。RISC-V 的设计目标是提供一个灵活、高效且易于实现的 ISA，这使得它成为嵌入式系统和其他低功耗设备中的理想选择。
+
+### Loongson
+
+[Loongson](https://www.loongson.cn) 是中国国内研发的一款基于 RISC-V 架构的中央处理器（CPU）。它由中国科学院电子学研究所（IECAS）的研究团队开发，并由中国的 Loongson Technology Co., Ltd. 公司负责生产和销售。Loongson CPU 旨在满足中国国内对自主可控、高性能计算能力的需求，同时也支持国际标准的软件开发和运行环境。
 
 {% notel yellow Warning %}
 作者所在的团队选择了 `RISC-V` 架构，以下部分只包含 `RISC-V` 架构。
@@ -113,6 +121,18 @@ Rust 是一门现代化语言，微软、谷歌是 Rust 的支持者之一，他
 {% endtabs %}
 
 ### 安装 QEMU
+
+{% notel blue Info %}
+请注意，这里的 QEMU 指的是 `qemu-system-riscv64` ，并不是 `qemu-riscv64` 。
+
+- `qemu-system-riscv64` 允许用户模拟完整的 RISC-V 64 位系统，包括 CPU、内存、设备等。
+
+- `qemu-riscv64` 主要用于执行单个 RISC-V 指令或程序。
+
+由于我们编写的是内核，所以选择 `qemu-system-riscv64` 。
+{% endnotel %}
+
+#### 相关资料
 
 1. [rCore-Tutorial-Book-v3](https://rcore-os.cn/rCore-Tutorial-Book-v3/chapter0/5setup-devel-env.html#qemu)
 
