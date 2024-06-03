@@ -1,8 +1,8 @@
 ---
 title: 操作系统（OS）内核学习路线
 date: 2024-06-02 23:44:19
-tags: [OS, Guide]
-category: [Guide, OS]
+tags: [OS, Guide, Kernel]
+category: [Guide, OS, Kernel]
 expert: 操作系统 OS 内核赛道零基础学习路线
 ---
 
@@ -12,9 +12,9 @@ expert: 操作系统 OS 内核赛道零基础学习路线
 
 后来有幸组建了 3 人队伍，在初赛通过了全部的测试样例，故写博客记录开发的过程，将其整理为学习路线，为社区贡献自己的微薄之力。
 
-本文并不会深入讲解操作系统相关知识，以列举相关链接为主~，因为真要我讲我也讲不好~。
+- 本文并不会深入讲解操作系统相关知识，以列举相关链接为主~，因为真要我讲我也讲不好~。
 
-如有侵权，请联系删除。
+- 如有侵权，请联系删除。
 
 ## 勘误
 
@@ -22,7 +22,7 @@ expert: 操作系统 OS 内核赛道零基础学习路线
 
 如果你有疑问或者建议，欢迎通过邮箱 shetty.yttehs@outlook.com 联系。
 
-下面开始正文部分。
+- 下面开始正文部分。
 
 ---
 
@@ -100,14 +100,14 @@ Rust 是一门现代化语言，微软、谷歌是 Rust 的支持者之一，他
 {% endnotel %}
 
 {% tabs 编程语言 %}
-<!-- tab C 语言 -->
-关键词：`riscv`, `gcc`
-<!-- endtab -->
-
 <!-- tab Rust -->
 关键词：`riscv`, `gcc`, `rustup`, `cargo`
 
 对于 Rust ，[此教程](https://rcore-os.cn/rCore-Tutorial-Book-v3/chapter0/5setup-devel-env.html)有详细的说明。
+<!-- endtab -->
+
+<!-- tab C 语言 -->
+关键词：`riscv`, `gcc`
 <!-- endtab -->
 {% endtabs %}
 
@@ -128,13 +128,13 @@ Rust 是一门现代化语言，微软、谷歌是 Rust 的支持者之一，他
 
 ### Break the Wall
 
-*🤫嘘，小声说话，成为一名合格的 CSer 。*
+🤫*嘘，小声说话，成为一名合格的 CSer 。*
 
 请自行完成 [CS 自学指南](https://csdiy.wiki) 必学工具的第一项。
 
 #### 目标
 
-写项目中遇到困难时，会 `STFW` ，会 `Ask GPT for Help` 。
+写项目中遇到困难时，能够做到 `STFW` 、`Ask GPT for Help` 。
 
 ### Linux Shell
 
@@ -186,7 +186,7 @@ NeoVim 有丰富三方插件，社区支持度高，打造成功可以与 VSCode
 
 *自动化编译和构建项目。*
 
-{% notel yellow Warning %}
+{% notel blue Info %}
 Makefile 内容较多，学习难度较高，建议对着模板改。
 {% endnotel %}
 
@@ -200,4 +200,62 @@ Makefile 内容较多，学习难度较高，建议对着模板改。
 
 2. [NJU ProjectN](https://nju-projectn.github.io/ics-pa-gitbook/ics2024/PA0.html): 南京大学操作系统讲义的 PA0 部分，作为入坑 CLI 的参考。
 
+## 操作系统理论知识
 
+{% notel yellow Warning %}
+一定要形成一个基本的框架，不然写代码时会晕乎乎的。
+作者亲身经历。
+{% endnotel %}
+
+操作系统的主要部分（从易到难）：
+
+| 中断 | 内存管理 | 文件系统 | 进程 | 并发 | IO 设备 |
+|:----:|:--------:|:--------:|:----:|:----:|:-------:|
+
+### 目标
+
+- 知道 **操作系统** 是什么
+
+- 了解操作系统的构成
+
+- 了解 RISC-V 汇编语言，这个量力而行吧
+
+### 相关资料
+
+1. [[完结] 循序渐进，学习开发一个RISC-V上的操作系统 - 汪辰 - 2021春](https://www.bilibili.com/video/BV1Q5411w7z5/?vd_source=f5d3310d445c014fbe8556da492aa86a): 用 C 语言开发 RISC-V 操作系统的教程，讲得很详细，选择 Rust 的同学看到 `Hello RVOS` 就够了。
+
+2. [16分半还你一个能听懂基本分页存储管理在干嘛的大脑！](https://www.bilibili.com/video/BV1hd4y1m7yC/?vd_source=f5d3310d445c014fbe8556da492aa86a): 操作系统内存管理，讲得很详细，小姐姐的声音也很甜。
+
+## 实践环节
+
+*到了这一步，其实只是刚刚开始，请坚持下去。*
+
+{% notel blue Info %}
+千万不要只看教程，动手敲代码才是最有效的学习方式。
+{% endnotel %}
+
+{% tabs 编程语言 %}
+<!-- tab Rust -->
+1. [rCore-Tutorial-Book 第三版](https://rcore-os.cn/rCore-Tutorial-Book-v3): 训练营文档。
+
+2. [清华大学操作系统rCore（22春）](https://www.bilibili.com/video/BV1yD421V7pf/?spm_id_from=333.999.0.0&vd_source=f5d3310d445c014fbe8556da492aa86a): 训练营视频。
+<!-- endtab -->
+
+<!-- tab C 语言 -->
+1. [[完结] 循序渐进，学习开发一个RISC-V上的操作系统 - 汪辰 - 2021春](https://www.bilibili.com/video/BV1Q5411w7z5/?spm_id_from=333.999.0.0&vd_source=f5d3310d445c014fbe8556da492aa86a): 《从头写一个RISC-V OS》课程。
+
+2. [riscv-operating-system-mooc](https://github.com/plctlab/riscv-operating-system-mooc): 《从头写一个RISC-V OS》课程配套资源。
+<!-- endtab -->
+{% endtabs %}
+
+## 后记
+
+操作系统并非简单的事物，它与传统编程不同，脱离了对 **标准库** 的依赖，因此需要改变思维和习惯。
+
+祝大家在自己研究的方向有所突破，早日实现自己的梦想。
+
+## 致谢
+
+感谢 [Cai1Hsu](https://github.com/Cai1Hsu) 、 [xiaocong](https://github.com/xiaocongyaosa) 两位搭档的指导。
+
+感谢 rCore-Tutorial 提供的优秀资源，以及整个社区的支持和贡献。
