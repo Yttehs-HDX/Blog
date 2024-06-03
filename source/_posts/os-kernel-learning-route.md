@@ -3,7 +3,7 @@ title: 操作系统（OS）内核学习路线
 date: 2024-06-02 23:44:19
 tags: [OS, Guide, Kernel]
 category: [Guide, OS, Kernel]
-thumbnail: /2024/06/02/os-kernel-learning-route/head.png
+thumbnail: /2024/06/02/os-kernel-learning-route/head.webp
 expert: 操作系统 OS 内核赛道零基础学习路线
 ---
 
