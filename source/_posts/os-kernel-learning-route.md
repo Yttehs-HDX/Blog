@@ -14,6 +14,8 @@ expert: 操作系统 OS 内核赛道零基础学习路线
 
 本文并不会深入讲解操作系统相关知识，以列举相关链接为主~，因为真要我讲我也讲不好~。
 
+如有侵权，请联系删除。
+
 ## 勘误
 
 在深入研究文本之前，请务必注意可能存在一些 **语法错误** ，这可能是由于翻译错误、打字错误或作者独特的写作风格。
@@ -28,7 +30,7 @@ expert: 操作系统 OS 内核赛道零基础学习路线
 
 选择 `RISC-V` 或 `Loongson` 架构之一进行内核开发。
 
-{% notel red Warning %}
+{% notel yellow Warning %}
 作者所在的团队选择了 `RISC-V` 架构，以下部分只包含 `RISCV` 架构。
 {% endnotel %}
 
@@ -76,7 +78,7 @@ Rust 是一门现代化语言，微软、谷歌是 Rust 的支持者之一，他
 
 ## 开发环境搭建
 
-### 安装 Linux
+### Linux
 
 在 x86_64 的 PC 上编译 RISC-V 架构的内核需要 **交叉编译工具链（Cross-platform Toolchain）** 以及其他工具的支持，毫无疑问， Linux 提供了良好的支持。
 
@@ -88,7 +90,7 @@ Rust 是一门现代化语言，微软、谷歌是 Rust 的支持者之一，他
 | 缺点 | 环境隔离不彻底，没有图形化界面（其实可以用 VNC） | 开销大，配置繁琐         | 安装复杂，容易不小心丢数据 | arm64 架构的软件包少        |
 | 难度 | ⭐                                               | ⭐⭐                     | ⭐⭐⭐⭐                   | ⭐⭐⭐⭐                    |
 
-### 安装工具链
+### 工具链
 
 由于每个人的 Linux 环境不同，这时你意识到你要 [`STFW`](https://www.google.com) 了。
 
@@ -112,3 +114,90 @@ Rust 是一门现代化语言，微软、谷歌是 Rust 的支持者之一，他
 ### 安装 QEMU
 
 1. [rCore-Tutorial-Book-v3](https://rcore-os.cn/rCore-Tutorial-Book-v3/chapter0/5setup-devel-env.html#qemu)
+
+## 前置知识
+
+{% notel yellow Warning %}
+也许你认为可以跳过这部分，不过现在偷的懒以后都会找回来的。
+{% endnotel %}
+
+{% notel blue Info %}
+对于初学者，暂时学会基本的功能就够了，后续可以再次深入学习。
+**跳读法** 未必不是一种好办法。
+{% endnotel %}
+
+### Break the Wall
+
+*🤫嘘，小声说话，成为一名合格的 CSer 。*
+
+请自行完成 [CS 自学指南](https://csdiy.wiki) 必学工具的第一项。
+
+#### 目标
+
+写项目中遇到困难时，会 `STFW` ，会 `Ask GPT for Help` 。
+
+### Linux Shell
+
+*这将促进 GUI 向 CLI 的转变。*
+
+#### 目标
+
+- 理解 `可执行文件` 的概念
+
+- 使用命令行管理文件的创建/删除/移动
+
+#### 进阶（选做）
+
+- 打造属于自己的 shell
+
+  由于 `bash` 的功能简陋，你可以使用以下列举的 shell ：
+
+| shell | [fish](https://fishshell.com/)      | [zsh](https://ohmyz.sh/#install)      |
+|:-----:|-------------------------------------|---------------------------------------|
+| 优点  | 上手简单，内置插件丰富              | 需要自己动手配置，兼容传统 shell 语法 |
+| 缺点  | 配置复杂，不完全兼容传统 shell 语法 | 社区支持度高，三方插件丰富            |
+
+### Vim
+
+*CLI 文本编辑器，Linux用户心目中神一般的存在。*
+
+{% notel blue Info %}
+🥹：如果我实在接受不了 Vim 怎么办？
+CLI 编辑器不止 Vim ，可以用 `Nano`，`Emacs` 代替，更加适合新手。
+{% endnotel %}
+
+#### 目标
+
+- 学会使用 Vim 编辑文件，学会基本的操作
+
+#### 进阶（选做）
+
+- 使用 `NeoVim`
+
+*NeoVim 是更加强大的 Vim ，如果你不满足简陋的 Vim ，欢迎入坑 NeoVim 。*
+
+NeoVim 有丰富三方插件，社区支持度高，打造成功可以与 VSCode 相媲美，不过配置过程较为繁琐，建议从使用别人的配置开始。
+
+### Git
+
+*强大的版本控制工具，CSer 必学。* 
+
+### Makefile
+
+*自动化编译和构建项目。*
+
+{% notel yellow Warning %}
+Makefile 内容较多，学习难度较高，建议对着模板改。
+{% endnotel %}
+
+#### 目标
+
+- 使用 make 命令编译运行内核项目
+
+### 相关资料
+
+1. [Makefile Tutorial](https://makefiletutorial.com): Makefile 零基础入门，根据自己的体质来。
+
+2. [NJU ProjectN](https://nju-projectn.github.io/ics-pa-gitbook/ics2024/PA0.html): 南京大学操作系统讲义的 PA0 部分，作为入坑 CLI 的参考。
+
+
