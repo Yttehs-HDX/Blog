@@ -127,7 +127,7 @@ Rust 是一门现代化语言，微软、谷歌是 Rust 的支持者之一，他
 **跳读法** 未必不是一种好办法。
 {% endnotel %}
 
-### Break the Wall
+### Break the GFW
 
 🤫*嘘，小声说话，成为一名合格的 CSer 。*
 
