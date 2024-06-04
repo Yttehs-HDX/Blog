@@ -178,6 +178,10 @@ Rust 是一门现代化语言，微软、谷歌是 Rust 的支持者之一，他
 | 优点  | 上手简单，内置插件丰富              | 需要自己动手配置，兼容传统 shell 语法 |
 | 缺点  | 配置复杂，不完全兼容传统 shell 语法 | 社区支持度高，三方插件丰富            |
 
+#### 相关资料
+
+1. [Linux入门教程](https://nju-projectn.github.io/ics-pa-gitbook/ics2024/linux.html)
+
 ### Vim
 
 *CLI 文本编辑器，Linux用户心目中神一般的存在。*
@@ -202,6 +206,12 @@ NeoVim 有丰富三方插件，社区支持度高，打造成功可以与 VSCode
 ### Git
 
 *强大的版本控制工具，CSer 必学。* 
+
+#### 相关资料
+
+1. [Learn Git Branching](https://learngitbranching.js.org/?locale=zh_CN)
+
+2. [Git 快速入门](https://nju-projectn.github.io/ics-pa-gitbook/ics2024/git.html)
 
 ### Makefile
 
