@@ -3,7 +3,7 @@ title: NAT Traversal Guide - Frp
 date: 2024-04-29 10:07:58
 tags: [NAT Traversal,Frp, Guide]
 category: [Guide, Tools]
-thumbnail: /2024/04/29/nat-traversal-guide-frp/frp.webp
+thumbnail: /image/nat-traversal-guide-frp/head.webp
 excerpt: Get remote connection to local host
 ---
 
