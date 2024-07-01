@@ -57,7 +57,7 @@ My environment:
 ```
 
 {% notel blue Info %}
-In this guide, we will build the following kernel.
+In this guide, the following kernel will be treated as example.
 {% endnotel %}
 
 | Device  | Name      | Kernel Verison | Partition | GKI | Maintainer                                | Repository                                                                                |
@@ -70,13 +70,13 @@ In this guide, we will build the following kernel.
 
 ```bash
 mkdir kernel-sources
-# set depth=1 to save storage
+# set depth=1 to save storage and network
 git clone https://github.com/LineageOS/android_kernel_xiaomi_sdm845 --depth=1
 ```
 
 ### Get Reliable Config (Optional)
 
-Configs from kernel provider do not necessarily make the kernel run, even complie.
+Configs from kernel provider do not necessarily make the kernel run, even compile.
 
 #### From Device
 
@@ -86,7 +86,7 @@ cd /tmp
 gzip -d config.gz
 ```
 
-Move the config to the right place:
+Move the config to the right directory:
 
 ```bash
 mv config /path/to/kernel/root/arch/arm64/config/polaris-stock_defconfig
@@ -188,7 +188,7 @@ make -j$(nproc --all) O=$O \
 Save as `build.sh` :
 
 ```bash
-cd /path/to/kernel_root
+cd /path/to/kernel/root
 vim build.sh
 ```
 
@@ -199,7 +199,7 @@ chmod +x build.sh
 ./build.sh
 ```
 
-If succeed, the terminal output may similar to the following:
+If succeed, the terminal output may like:
 
 ```bash
 # Omit large amounts of output...
@@ -266,9 +266,9 @@ The kernel binary files is at `kernel_root/$O/arch/$ARCH/boot` .
 Strongly recommend to enable
 ***Build a concatenated Image.gz/dtb by default*** (CONFIG_BUILD_ARM64_APPENDED_DTB_IMAGE=y)
 ***Appended DTB Kernel Image name (Image.gz-dtb)*** (IMG_GZ_DTB=y)
-in config file
+in config file.
 
-Output files may be:
+Output files may include:
 
 - **Image**: kernel image
  
@@ -280,11 +280,11 @@ Output files may be:
 
 ## Package
 
-### Clone AnyKernel3 Repo
+### Clone AnyKernel3 Repository
 
 ### Write an Pakage Script
 
-Choose one of Images ( `Image.gz-dtb` > `Image.gz` > `Image` ) and `dtbo.img` ( Optional, may result in bugs ) to package.
+Choose one of Images ( `Image.gz-dtb` > `Image.gz` > `Image` ) and `dtbo.img` ( Optional, may causing bugs ) to package.
 
 Here is a package shell script (From [my gist](https://gist.github.com/Yttehs-HDX/e90672dbb846a109c7173f9b8bdceebd#file-pack-sh)):
 
@@ -321,7 +321,7 @@ The zip file is generated at `AnyKernel3/kernel-polaris-lineageOS-xxx.zip`
 
 ## Flash
 
-Make sure you have third party recovery.
+Make sure you have flashed a third-party recovery such as [TWRP](https://twrp.me).
 
 ```bash
 sudo pacman -S android-tools # install first if adb is not found
@@ -330,7 +330,9 @@ adb reboot recovery
 
 #### ***Warning: Backup `boot.img` and `dtbo.img` before flash.***
 
-On the device: choose adb sideload.
+Enable adb sideload on target device, and connect to computer via USB.
+
+Then run:
 
 ```bash
 adb sideload <kernel_zip>
@@ -338,8 +340,8 @@ adb sideload <kernel_zip>
 
 After the process, reboot.
 
-## Afeterwords
+## Afterwords
 
-If the kernel runs great, you can consider add features for it, such as `KernelSU`, `NetHunter`, `Docker`, `Lxc`, etc.
+If the kernel runs great, you can consider add features on it, such as `KernelSU`, `NetHunter`, `Docker`, `Lxc`, etc.
 
-My work is at [`Yttehs-HDX/polaris_lineageOS_kernel`](https://github.com/Yttehs-HDX/polaris_lineageOS_kernel), having add KernelSU support.
+My kernel is at [`Yttehs-HDX/polaris_lineageOS_kernel`](https://github.com/Yttehs-HDX/polaris_lineageOS_kernel) with KernelSU feature enabled.
