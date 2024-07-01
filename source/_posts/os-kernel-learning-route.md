@@ -132,6 +132,8 @@ Rust 是一门现代化语言，微软、谷歌是 Rust 的支持者之一，他
 由于我们编写的是内核，所以选择 `qemu-system-riscv64` 。
 {% endnotel %}
 
+如果 Linux 发行版提供了 `qemu-system-riscv64` ，那么请直接使用，手动编译是最后的选择。
+
 #### 相关资料
 
 1. [rCore-Tutorial-Book-v3](https://rcore-os.cn/rCore-Tutorial-Book-v3/chapter0/5setup-devel-env.html#qemu)
@@ -153,6 +155,8 @@ Rust 是一门现代化语言，微软、谷歌是 Rust 的支持者之一，他
 
 请自行完成 [CS 自学指南](https://csdiy.wiki) 必学工具的第一项。
 
+权衡可信度，带宽，流量，价格等因素。
+
 #### 目标
 
 写项目中遇到困难时，能够做到 `STFW` 、`Ask GPT for Help` 。
@@ -173,10 +177,10 @@ Rust 是一门现代化语言，微软、谷歌是 Rust 的支持者之一，他
 
   由于 `bash` 的功能简陋，你可以使用以下列举的 shell ：
 
-| shell | [fish](https://fishshell.com/)      | [zsh](https://ohmyz.sh/#install)      |
-|:-----:|-------------------------------------|---------------------------------------|
-| 优点  | 上手简单，内置插件丰富              | 需要自己动手配置，兼容传统 shell 语法 |
-| 缺点  | 配置复杂，不完全兼容传统 shell 语法 | 社区支持度高，三方插件丰富            |
+| shell | [fish](https://fishshell.com/)      | [zsh](https://ohmyz.sh/#install)                |
+|:-----:|:-----------------------------------:|:-----------------------------------------------:|
+| 优点  | 上手简单，内置插件丰富              | 社区支持度高，三方插件丰富，兼容传统 shell 语法 |
+| 缺点  | 不完全兼容传统 shell 语法           | 初始界面简陋，需要自己动手配置                  |
 
 #### 相关资料
 
@@ -189,6 +193,11 @@ Rust 是一门现代化语言，微软、谷歌是 Rust 的支持者之一，他
 {% notel blue Info %}
 🥹：如果我实在接受不了 Vim 怎么办？
 CLI 编辑器不止 Vim ，可以用 `Nano`，`Emacs` 代替，更加适合新手。
+{% endnotel %}
+
+{% notel blue Info %}
+虽然 Vim 的理念与一般的应用程序不同，但是强烈建议掌握其基础功能。
+因为目前很多 CLI 应用的操作使用与 Vim 一样的方式。
 {% endnotel %}
 
 #### 目标
