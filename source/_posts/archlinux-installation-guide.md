@@ -265,7 +265,15 @@ pacman -S fish  # install if not exits
 fish && exit
 ```
 
-### Install Grub
+### Grub
+
+1. Install packages.
+
+```bash
+pacman -S grub efibootmgr efivar
+```
+
+2. Install grub.
 
 ```bash
 grub-install /dev/sda1
