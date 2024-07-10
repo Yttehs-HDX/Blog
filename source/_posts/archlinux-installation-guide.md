@@ -458,14 +458,6 @@ AMD Drivers:
 pacman -S amd-ucode mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon libva-mesa-driver lib32-libva-mesa-driver mesa-vdpau lib32-mesa-vdpau
 ```
 
-### Install Media Drivers
-
-```bash
-pacman -S alsa alsa-utils alsa-plugins alsa-oss alsa-firmware alsa-ucm-conf
-pacman -S sof-firmware
-pacman -S pipeware pipeware-alsa pipeware-audio pipeware-pulse pipeware-jack
-```
-
 ### Install Nvidia Drivers ( Optional )
 
 #### _Note: ``ArchWiki`` is better to guide [how to install Nvidia drivers](https://wiki.archlinux.org/title/NVIDIA)._
@@ -478,13 +470,7 @@ pacman -S pipeware pipeware-alsa pipeware-audio pipeware-pulse pipeware-jack
 sudo timeshift --create
 ```
 
-1. Check kernel category.
-
-```bash
-uname -r
-```
-
-2. Install drivers.
+1. Install drivers.
 
 If use kernel linux:
 
@@ -504,7 +490,19 @@ Other kernels:
 pacman -S nvidia-dkms
 ```
 
-3. Install VA-API implementation.
+2. Install settings.
+
+```bash
+pacman -S nvidia-settings
+```
+
+3. Install prime ( Optional )
+
+```bash
+pacman -S nvidia-prime
+```
+
+4. Install VA-API implementation.
 
 ```bash
 pacman -S libva-nvidia-driver
@@ -513,6 +511,14 @@ pacman -S libva-nvidia-driver
 - If you are using laptop with both ``integrated graphics`` card and ``Nvidia graphic card``:
 
 Reboot to Windows and adjust GPU settings to Optimus.
+
+### Install Media Drivers
+
+```bash
+pacman -S alsa-utils alsa-plugins alsa-oss alsa-firmware alsa-ucm-conf
+pacman -S sof-firmware
+pacman -S pipeware pipeware-alsa pipeware-audio pipeware-pulse pipeware-jack
+```
 
 ## Install KDE Plasma Desktop
 
