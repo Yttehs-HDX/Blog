@@ -288,6 +288,8 @@ Makefile 内容较多，学习难度较高，建议对着模板改。
 <!-- endtab -->
 {% endtabs %}
 
+虚拟内存上板时会多级页表可能会发生 Bug ，请参考 [Reddit 的帖子](https://www.reddit.com/r/RISCV/comments/14psii6/help_wanted_enabling_sv39_virtual_memory_on/)。
+
 ## 后记
 
 操作系统并非简单的事物，它与传统编程不同，脱离了对 **标准库** 的依赖，因此需要改变思维和习惯。
