@@ -288,7 +288,9 @@ Makefile 内容较多，学习难度较高，建议对着模板改。
 <!-- endtab -->
 {% endtabs %}
 
-虚拟内存上板时会多级页表可能会发生 Bug ，请参考 [Reddit 的帖子](https://www.reddit.com/r/RISCV/comments/14psii6/help_wanted_enabling_sv39_virtual_memory_on/)。
+{% notel blue Info %}
+虚拟内存上板时可能会发生 **多级页表** 相关的 Bug ，请参考 [Reddit 社区的解决方案](https://www.reddit.com/r/RISCV/comments/14psii6/help_wanted_enabling_sv39_virtual_memory_on/)。
+{% endnotel %}
 
 ## 后记
 
