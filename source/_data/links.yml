@@ -1,6 +1,10 @@
 - links_category: Friends
   has_thumbnail: false
   list:
+    - name: 东秦计科人生存手册
+      link: https://manual.caiyi1.me
+      description: 暑假不发霉手册
+      avatar: https://avatars.githubusercontent.com/u/177510763?s=200&v=4
     - name: Caiyi Shyu
       link: https://blog.caiyi1.me
       description: Cai1Hsu's blog
