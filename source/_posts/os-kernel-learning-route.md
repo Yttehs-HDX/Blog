@@ -112,7 +112,7 @@ Rust 是一门现代化语言，微软、谷歌是 Rust 的支持者之一，他
 <!-- tab Rust -->
 关键词：`riscv`, `gcc`, `rustup`, `cargo`
 
-对于 Rust ，[此教程](https://rcore-os.cn/rCore-Tutorial-Book-v3/chapter0/5setup-devel-env.html)有详细的说明。
+对于 Rust ，[此教程](https://learningos.cn/rCore-Tutorial-Guide-2024S/0setup-devel-env.html#rust)有详细的说明。
 <!-- endtab -->
 
 <!-- tab C 语言 -->
@@ -136,7 +136,7 @@ Rust 是一门现代化语言，微软、谷歌是 Rust 的支持者之一，他
 
 #### 相关资料
 
-1. [rCore-Tutorial-Book-v3](https://rcore-os.cn/rCore-Tutorial-Book-v3/chapter0/5setup-devel-env.html#qemu)
+1. [rCore-Tutorial-Guide 2024 春季学期](https://learningos.cn/rCore-Tutorial-Guide-2024S/0setup-devel-env.html#qemu)
 
 ## 前置知识
 
@@ -242,21 +242,22 @@ Makefile 内容较多，学习难度较高，建议对着模板改。
 
 ## 操作系统理论知识
 
+如果你是计算机小白，没有对计算机领域有一个较为全貌的理解，推荐看一个系列视频（前 10 集推荐连续看完）：[Crash Course Computer Science](https://www.bilibili.com/video/BV1EW411u7th/?p=1&vd_source=f5d3310d445c014fbe8556da492aa86a)。
+
 {% notel yellow Warning %}
 一定要形成一个基本的框架，不然写代码时会晕乎乎的。
 作者亲身经历。
 {% endnotel %}
 
-操作系统的主要部分：
-
-| 中断 | 内存管理 | 进程 | 文件系统 | 并发 | IO 设备 |
-|:----:|:--------:|:----:|:--------:|:----:|:-------:|
+| 主要部分 | 中断处理 内存管理 进程调度 文件系统 设备管理 ... |
+|:------:|:------:|
+| 进阶 | busybox libc ... |
 
 ### 目标
 
 - 知道 **操作系统** 是什么
 
-- 了解操作系统的构成
+- 使用下方资料或自行查找资料，了解操作系统的构成
 
 - 了解 RISC-V 汇编语言，这个量力而行吧
 
@@ -265,6 +266,8 @@ Makefile 内容较多，学习难度较高，建议对着模板改。
 1. [[完结] 循序渐进，学习开发一个RISC-V上的操作系统 - 汪辰 - 2021春](https://www.bilibili.com/video/BV1Q5411w7z5/?vd_source=f5d3310d445c014fbe8556da492aa86a): 用 C 语言开发 RISC-V 操作系统的教程，讲得很详细，选择 Rust 的同学看到 `Hello RVOS` 就够了。
 
 2. [16分半还你一个能听懂基本分页存储管理在干嘛的大脑！](https://www.bilibili.com/video/BV1hd4y1m7yC/?vd_source=f5d3310d445c014fbe8556da492aa86a): 操作系统内存管理，讲得很详细，小姐姐的声音也很甜。
+
+3. [开源操作系统社区活动](https://shimo.im/docs/QTPRT8h8jyGQCqkJ/read)：收集了丰富的操作系统相关资源。
 
 ## 实践环节
 
@@ -276,7 +279,7 @@ Makefile 内容较多，学习难度较高，建议对着模板改。
 
 {% tabs 编程语言 %}
 <!-- tab Rust -->
-1. [rCore-Tutorial-Book 第三版](https://rcore-os.cn/rCore-Tutorial-Book-v3): 训练营文档。
+1. [rCore-Tutorial-Guide 2024 春季学期](https://learningos.cn/rCore-Tutorial-Guide-2024S): 训练营文档。
 
 2. [清华大学操作系统rCore（22春）](https://www.bilibili.com/video/BV1yD421V7pf/?spm_id_from=333.999.0.0&vd_source=f5d3310d445c014fbe8556da492aa86a): 训练营视频。
 <!-- endtab -->
