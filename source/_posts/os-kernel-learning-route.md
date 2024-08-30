@@ -307,6 +307,6 @@ Makefile 内容较多，学习难度较高，建议对着模板改。
 
 ## 致谢
 
-感谢 [Cai1Hsu](https://github.com/Cai1Hsu) 、 [xiaocong](https://github.com/xiaocongyaosa) 两位搭档的指导。
+感谢 [Cai1Hsu](https://github.com/Cai1Hsu) 、 [xiaocongyaosa](https://github.com/xiaocongyaosa) 两位搭档的指导。
 
 感谢 rCore-Tutorial 提供的优秀资源，以及整个社区的支持和贡献。
