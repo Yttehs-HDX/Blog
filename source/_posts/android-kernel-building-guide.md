@@ -255,7 +255,7 @@ aarch64-linux-gnu-ld: warning: vmlinux has a LOAD segment with RWX permissions
 ```
 
 {% notel blue Info %}
-It may takes a very long time.
+It may take a very long time.
 In my PC, it costs **2m 51s** .
 {% endnotel %}
 
@@ -344,4 +344,5 @@ After the process, reboot.
 
 If the kernel runs great, you can consider add features on it, such as `KernelSU`, `NetHunter`, `Docker`, `Lxc`, etc.
 
-My kernel is at [`Yttehs-HDX/polaris_lineageOS_kernel`](https://github.com/Yttehs-HDX/polaris_lineageOS_kernel) with KernelSU feature enabled.
+> Update on 2024-10-12
+> My kernel is at [Yttehs-HDX/android_kernel_xiaomi_polaris_nethunter](https://github.com/Yttehs-HDX/android_kernel_xiaomi_polaris_nethunter), with NetHunter support.
