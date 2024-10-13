@@ -1,6 +1,10 @@
 - links_category: Friends
   has_thumbnail: false
   list:
+    - name: NEUQ 龙芯实验室博客
+      link: https://loongson-neuq.pages.dev
+      description: 东北大学秦皇岛分校龙芯实验室博客
+      avatar: https://loongson-neuq.pages.dev/img/avatar_hu27a039529b0e16f185ca51fbed76013f_26164_300x0_resize_box_3.png
     - name: 东秦计科人生存手册
       link: https://manual.caiyi1.me
       description: 暑假不发霉手册
