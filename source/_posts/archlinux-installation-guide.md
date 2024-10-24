@@ -559,27 +559,7 @@ reboot
 
 ### My Custom Linux Configurations
 
-- Those are my personal configs, just modify them to suit your needs.
-
-#### [zpacman](https://github.com/Yttehs-HDX/zpacman)
-
-A simple, small omz plugin manager.
-
-#### [Neovim-config](https://github.com/Yttehs-HDX/Neovim-config)
-
-My custom neovim configuration.
-
-#### [Tmux-config](https://github.com/Yttehs-HDX/Tmux-config)
-
-My custom tmux configuration.
-
-#### [Ranger-config](https://github.com/Yttehs-HDX/Ranger-config)
-
-My custom ranger configuration.
-
-#### [.bashrc](https://gist.github.com/Yttehs-HDX/093b22497f1a959ad02f2375e333bc3a)
-
-My custom .bashrc.
+- Dotfiles: [Yttehs-HDX/dotfiles](https://github.com/Yttehs-HDX/dotfiles)
 
 ## References
 
