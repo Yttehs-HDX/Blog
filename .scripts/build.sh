@@ -10,11 +10,10 @@
 # | hexo build script |
 # +-------------------+
 
-RED='\033[0;31m'
 GREEN='\033[0;32m'
 RESET='\033[0m'
 
-# install hexo if not found
+# install hexo
 npm install -g hexo-cli
 npm install
 
