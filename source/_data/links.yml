@@ -1,14 +1,7 @@
 - links_category: Friends
+  description: Friends
   has_thumbnail: false
   list:
-    - name: NEUQ 龙芯实验室博客
-      link: https://loongson-neuq.pages.dev
-      description: 东北大学秦皇岛分校龙芯实验室博客
-      avatar: https://loongson-neuq.pages.dev/img/avatar_hu27a039529b0e16f185ca51fbed76013f_26164_300x0_resize_box_3.png
-    - name: 东秦计科人生存手册
-      link: https://manual.caiyi1.me
-      description: 暑假不发霉手册
-      avatar: https://avatars.githubusercontent.com/u/177510763?s=200&v=4
     - name: Caiyi Shyu
       link: https://blog.caiyi1.me
       description: Cai1Hsu's blog
@@ -17,3 +10,16 @@
       link: http://eviarch.top
       description: Eviarch's blog
       avatar: https://avatars.githubusercontent.com/u/148052580?v=4
+
+- links_category: Organizations
+  description: Organizations
+  has_thumbnail: false
+  list:
+    - name: 东秦计科人生存手册
+      link: https://manual.caiyi1.me
+      description: 暑假不发霉手册
+      avatar: https://avatars.githubusercontent.com/u/177510763?s=200&v=4
+    - name: NEUQ 龙芯实验室博客
+      link: https://loongson-neuq.pages.dev
+      description: 东北大学秦皇岛分校龙芯实验室博客
+      avatar: https://loongson-neuq.pages.dev/img/avatar_hu27a039529b0e16f185ca51fbed76013f_26164_300x0_resize_box_3.png
