@@ -3,6 +3,10 @@
 all: deploy
 
 dependencies:
+	@if ! command -v hexo > /dev/null; then \
+		echo "Installing Hexo..."; \
+		npm install hexo-cli -g; \
+	fi
 	npm install
 	npm install hexo-theme-redefine@latest
 	npm install hexo-generator-searchdb --save
