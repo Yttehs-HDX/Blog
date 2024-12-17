@@ -15,5 +15,5 @@ dependencies:
 	npm install hexo-all-minifier
 
 deploy: dependencies
-	@echo -e "${GREEN}Building site...${RESET}"
+	@echo "$(GREEN)Building site...$(RESET)"
 	hexo generate
