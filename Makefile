@@ -1,12 +1,8 @@
 .PHONY : all deploy
 
-GREEN='\033[0;32m'
-RESET='\033[0m'
-
 all: deploy
 
 dependencies:
-	npm install -g hexo-cli
 	npm install
 	npm install hexo-theme-redefine@latest
 	npm install hexo-generator-searchdb --save
@@ -15,5 +11,5 @@ dependencies:
 	npm install hexo-all-minifier
 
 deploy: dependencies
-	@echo "$(GREEN)Building site...$(RESET)"
+	@echo "Building site..."
 	hexo generate
