@@ -8,7 +8,7 @@ Theme: `Redefine`
 
 ## URL
 
-[blog.shettyyttehs.org](https://blog.shettyyttehs.org)
+[blog.shettydev.com](https://blog.shettydev.com)
 
 ## License
 
