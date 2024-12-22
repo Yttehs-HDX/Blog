@@ -12,4 +12,6 @@ Theme: `Redefine`
 
 ## License
 
-MIT
+Project: `MIT`
+
+Posts: At the bottom of each post.
