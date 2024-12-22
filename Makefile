@@ -17,3 +17,6 @@ dependencies:
 deploy: dependencies
 	@echo "Building site..."
 	hexo generate
+
+clean:
+	rm -r public
