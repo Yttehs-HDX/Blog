@@ -1,7 +1,7 @@
 ---
 title: Comparison of React Native and Kotlin Multiplatform
 date: 2024-12-30 11:00:39
-tags: [Diary, Framework]
+tags: [Framework]
 category: [Diary, Framework]
 thumbnail: /image/react-native-and-kotlin-multiplatform/head.webp
 excerpt: My feedback for React Native and Kotlin Multiplatform
