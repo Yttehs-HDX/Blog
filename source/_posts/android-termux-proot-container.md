@@ -145,7 +145,7 @@ proot-distro login archlinux --user <username>
 
 > Make sure you have logged in ArchLinux.
 
-1. Add archLinuxcn source
+1. Add archlinuxcn source
 
 Edit `/etc/pacman.conf`:
 
@@ -209,7 +209,7 @@ vncserver :0
 
 ## Use VSCode
 
-> In my device, VSCode can only run **WITHOUT** sandbox.
+> On my device, VSCode can only run **WITHOUT** sandbox.
 
 ```bash
 cd /path/to/project
