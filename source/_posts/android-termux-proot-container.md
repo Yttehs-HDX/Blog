@@ -103,8 +103,8 @@ usermod -aG adm,storage,wheel <username>
 2. Set **sudo** permission.
 
 ```bash
-# install sudo if not exists
-pacman -S sudo
+# install vi and sudo if not exists
+pacman -S vi sudo
 ```
 
 ```bash
