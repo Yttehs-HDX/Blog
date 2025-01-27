@@ -91,7 +91,7 @@ pacman -S tigervnc xfce4
 
 > Make sure you have logged in ArchLinux.
 
-*Replace <username> with your username such as admin.*
+*Replace \<username\> with your username such as admin.*
 
 1. Create a user.
 
