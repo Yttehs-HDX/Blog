@@ -184,6 +184,11 @@ sudo pacman -S yay
 3. Install `VSCode` via yay.
 
 ```bash
+# install base-devel if not exists
+sudo pacman -S base-devel
+```
+
+```bash
 yay -S visual-studio-code-bin
 ```
 
