@@ -23,9 +23,10 @@ Please note that the difference of **devices** and version of **Termux** may hav
 
 This is my environment:
 
-| Device         | Android Version | Termux                | VNC App                 |
-|:--------------:|:---------------:|:---------------------:|:-----------------------:|
-| OnePlus Ace 3V | 15              | googleplay.2025.01.18 | RVNC Viewer 4.9.2.60169 |
+| Device          | Architecture  | Android Version | Termux                | VNC App                 |
+|:---------------:|:-------------:|:---------------:|:---------------------:|:-----------------------:|
+| OnePlus Ace 3V  | aarch64/arm64 | 15              | googleplay.2025.01.18 | RVNC Viewer 4.9.2.60169 |
+| Waydroid x86-64 | x86_64        | 11              | 0.119.0-beta.1        | RVNC Viewer 4.9.2.60169 |
 
 {% notel blue Info %}
 In this guide, `ArchLinux` is the example.
