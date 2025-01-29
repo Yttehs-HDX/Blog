@@ -68,7 +68,7 @@ proot-distro login archlinux
 ```bash
 pacman -Syu
 pacman -S fish
-chsh -s $(which fish)
+chsh -s /bin/fish
 ```
 
 ## Install VNC and Desktop on ArchLinux
