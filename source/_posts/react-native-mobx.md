@@ -55,7 +55,7 @@ MVVM 分为 3 个部分：
 import { useState } from "react";
 
 export default function SomeScreen() {
-  let [number, setNumber] = useState(0);
+  const [number, setNumber] = useState(0);
 
   return (
     <View>
