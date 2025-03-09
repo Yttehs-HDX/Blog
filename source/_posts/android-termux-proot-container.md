@@ -224,4 +224,4 @@ code --no-sandbox .
 
 ## Enjoy
 
-![final](final.jpg)
+![final](final.webp)
