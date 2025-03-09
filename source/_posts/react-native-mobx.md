@@ -47,7 +47,7 @@ MVVM 分为 3 个部分：
 
 一般的 React Native 项目习惯把数据与 UI 写在一个文件里，准确来说是让 UI 负责数据处理，甚至连官方提供的 demo [`StickerSmash`](https://docs.expo.dev/tutorial/create-your-first-app) 都是这样做的。
 
-React.useState() 函数提供了可观测对象和一个修改函数，这也使得数据一旦需要显示，就必须与 UI 代码耦合。
+`React.useState()` 函数提供了可观测对象和一个修改函数，这也使得数据一旦需要显示，就必须与 UI 代码耦合。
 
 在没有 MobX 的情况下，代码是这样的：
 
@@ -95,6 +95,22 @@ export default function SomeScreen() {
 
 上述问题可能有其他的解决方法，但是本文不做讨论，只对 MobX 进行讲解。
 
+添加 MobX 的依赖：
+
+{% tabs Package Manager %}
+<!-- tab yarn -->
+```bash
+yarn add mobx
+```
+<!-- endtab -->
+
+<!-- tab npm -->
+```bash
+npm install --save mobx
+```
+<!-- endtab -->
+{% endtabs %}
+
 MobX 可以创建可观测的对象，打破了 React Native 的限制，使得数据处理可以在 UI 代码之外存在。这个特性带来了在 React Native 中使用 MVVM 架构的可能性。
 
 以下是使用 MobX 重构后的代码实现：
@@ -140,8 +156,9 @@ export default function useDataViewModel() {
 
 ...
 import useDataViewModel from "./DataViewModel";
+import { observer } from "mobx-react-lite";
 
-export default function SomeScreen() {
+export const SomeScreen = observer(() {
   const dataViewModel = useDataViewModel();
 
   return (
@@ -150,10 +167,10 @@ export default function SomeScreen() {
       <Text>{dataViewModel.data}</Text>
     </View>
   );
-}
+)};
 ```
 
-`makeAutoObservable` 函数告诉编译器，这个类是一个可观测对象， `runInAction` 函数用于保证可观测对象的更新。
+`makeAutoObservable` 函数告诉编译器，这个类是一个可观测对象， `runInAction` 和 `observer` 函数用于保证可观测对象的更新。
 
 看起来可能暂时复杂了，但是等到功能变多时，我们只需要增加更多的 Modal 和 ViewModal 就够了，是长久之计。
 
