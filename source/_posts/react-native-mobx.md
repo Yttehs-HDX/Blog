@@ -140,7 +140,7 @@ class DataViewModal {
   get data() {
     return this._data;
   }
-  aync updateData() {
+  async updateData() {
     this._data = data + 1;
     await ...; // upload to backend
   }
