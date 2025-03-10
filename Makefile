@@ -13,5 +13,9 @@ deploy: dependencies
 	@echo "Building site..."
 	hexo generate
 
+preview:
+	@echo "Starting server..."
+	hexo server
+
 clean:
 	rm -r public
