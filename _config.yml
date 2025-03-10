@@ -119,4 +119,10 @@ robotstxt:
   useragent: "*"
   allow:
   disallow:
+    - /css
+    - /fontawesome
+    - /fonts
+    - /js
+    - /webfonts
+    - /404.html
   sitemap: /sitemap.xml
