@@ -108,3 +108,9 @@ deploy:
 
 # Resource compression
 all_minifier: true
+
+sitemap:
+  path: sitemap.xml
+  rel: false
+  tags: true
+  categories: true

@@ -13,6 +13,7 @@ dependencies:
 	npm install hexo-wordcount
 	npm install nodejieba@2.5.1
 	npm install hexo-all-minifier
+	npm install hexo-generator-sitemap --save
 
 deploy: dependencies
 	@echo "Building site..."

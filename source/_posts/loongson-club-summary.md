@@ -2,6 +2,7 @@
 title: Loongson Club Summary - OS
 date: 2024-11-28 14:32:14
 category: [Diary]
+sitemap: false
 thumbnail: /image/loongson-club-summary/head.webp
 excerpt: Summary of the 6th Loongson Club OS (First Half Semester)
 ---
