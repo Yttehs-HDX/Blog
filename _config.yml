@@ -125,4 +125,4 @@ robotstxt:
     - /js
     - /webfonts
     - /404.html
-  sitemap: /sitemap.xml
+  sitemap: https://blog.shettydev.com/sitemap.xml
