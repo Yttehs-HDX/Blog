@@ -8,12 +8,6 @@ dependencies:
 		npm install hexo-cli -g; \
 	fi
 	npm install
-	npm install hexo-theme-redefine@latest
-	npm install hexo-generator-searchdb --save
-	npm install hexo-wordcount
-	npm install nodejieba@2.5.1
-	npm install hexo-all-minifier
-	npm install hexo-generator-sitemap --save
 
 deploy: dependencies
 	@echo "Building site..."
