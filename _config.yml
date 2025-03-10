@@ -114,3 +114,9 @@ sitemap:
   rel: false
   tags: true
   categories: true
+
+robotstxt:
+  useragent: "*"
+  allow:
+  disallow:
+  sitemap: /sitemap.xml
