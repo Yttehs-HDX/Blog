@@ -52,6 +52,8 @@ MVVM 分为 3 个部分：
 在没有 MobX 的情况下，代码是这样的：
 
 ```typescript
+// SomeScreen.tsx
+...
 import { useState } from "react";
 
 export default function SomeScreen() {
@@ -71,6 +73,7 @@ export default function SomeScreen() {
 我们假设当前的数字是从后端获取的，对数字加一的操作之后需要同步回后端，现在只要补全代码就行了：
 
 ```typescript
+// SomeScreen.tsx
 ...
 import { useState } from "react";
 
@@ -153,7 +156,6 @@ export default function useDataViewModel() {
 
 ```typescript
 // SomeScreen.tsx
-
 ...
 import useDataViewModel from "./DataViewModel";
 import { observer } from "mobx-react-lite";
