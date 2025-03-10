@@ -75,7 +75,7 @@ export default function SomeScreen() {
 import { useState } from "react";
 
 export default function SomeScreen() {
-  let [number, setNumber] = useState(/* fetch from backend */);
+  const [number, setNumber] = useState(/* fetch from backend */);
 
   return (
     <View>
