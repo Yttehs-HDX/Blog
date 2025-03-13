@@ -103,13 +103,13 @@ export default function SomeScreen() {
 {% tabs Package Manager %}
 <!-- tab yarn -->
 ```bash
-yarn add mobx
+yarn add mobx mobx-react-lite
 ```
 <!-- endtab -->
 
 <!-- tab npm -->
 ```bash
-npm install --save mobx
+npm install --save mobx mobx-react-lite
 ```
 <!-- endtab -->
 {% endtabs %}
