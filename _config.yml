@@ -119,10 +119,4 @@ robotstxt:
   useragent: "*"
   allow:
   disallow:
-    - /css
-    - /fontawesome
-    - /fonts
-    - /js
-    - /webfonts
-    - /404.html
   sitemap: https://blog.shettydev.com/sitemap.xml
