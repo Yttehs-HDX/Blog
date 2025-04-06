@@ -13,3 +13,15 @@
       link: https://missing-semester-cn.github.io
       description: 计算机教育中缺失的一课
       image: https://missing-semester-cn.github.io/favicon.ico
+    - name: 东秦计科人生存手册
+      link: https://manual.caiyi1.me
+      description: 暑假不发霉手册
+      image: https://manual.caiyi1.me/favicon.ico
+
+- category: OS
+  icon: 
+  items:
+    - name: NEUQ 龙芯实验室博客
+      link: https://loongson-neuq.pages.dev
+      description: 东北大学秦皇岛分校龙芯实验室博客
+      image: https://loongson-neuq.pages.dev/img/avatar_hu27a039529b0e16f185ca51fbed76013f_26164_300x0_resize_box_3.png
