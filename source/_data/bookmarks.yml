@@ -1,5 +1,5 @@
 - category: Basic
-  icon: fa-folder
+  icon: fa-regular fa-lightbulb
   items:
     - name: CS 自学指南
       link: https://csdiy.wiki
@@ -18,10 +18,122 @@
       description: 暑假不发霉手册
       image: https://manual.caiyi1.me/favicon.ico
 
-- category: OS
-  icon: 
+- category: Tutorials
+  icon: fa-solid fa-book-open-reader
   items:
+    - name: Makefile Tutorial
+      link: https://makefiletutorial.com
+      description: Learn Makefiles with the tastiest examples
+      image: null
+    - name: Learn OpenGL
+      link: https://learnopengl-cn.github.io
+      description: 欢迎来到OpenGL的世界
+      image: https://raw.githubusercontent.com/LearnOpenGL-CN/LearnOpenGL-CN/refs/heads/new-theme/yeti/img/favicon.ico
+    - name: JavaGuide
+      link: https://javaguide.cn
+      description: 「Java学习 + 面试指南」涵盖 Java 程序员需要掌握的核心知识
+      image: https://javaguide.cn/favicon.ico
+    - name: The Rust Programming Language
+      link: https://rust-book.cs.brown.edu
+      description: An experimental fork of The Rust Programming Language
+      image: https://rust-book.cs.brown.edu/favicon.svg
+
+- category: Tools
+  icon: fa-solid fa-wrench
+  items:
+    - name: Down for Everyone or just Me
+      link: https://downforeveryoneorjustme.com
+      description: Is it down? Check at Down for Everyone or Just Me
+      image: https://downforeveryoneorjustme.com/favicon.ico
+    - name: Compiler Explorer
+      link: https://godbolt.org
+      description: Online assembly parser
+      image: https://godbolt.org/favicon.ico
+    - name: UIVERSE
+      link: https://uiverse.io
+      description: The Largest Library of Open-Source UI
+      image: https://uiverse.io/favicon.ico
+
+- category: Archbase
+  icon: fa-solid fa-sitemap
+  items:
+    - name: 计算机体系结构基础
+      link: https://foxsen.github.io/archbase
+      description: 第3版 E-book
+      image: https://foxsen.github.io/favicon.ico
+    - name: 第五期一生一芯学习讲义
+      link: https://ysyx.oscc.cc/docs/2205
+      description: 第五期"一生一芯"课程主页
+      image: https://ysyx.oscc.cc/docs/res/favicon.ico
+
+- category: OS
+  icon: fa-solid fa-terminal
+  items:
+    - name: rCore-Tutorial-Guide 文档
+      link: https://learningos.cn/rCore-Tutorial-Guide-2025S
+      description: "rCore-Tutorial-Guide 2025 春季学期"
+      image: https://opencamp.cn/favicon.ico
+    - name: OSDev wiki
+      link: https://wiki.osdev.org
+      description: Welcome to OSDev.org
+      image: https://wiki.osdev.org/favicon.ico
+    - name: Writing an OS in Rust
+      link: https://os.phil-opp.com/zh-CN
+      description: 这个博客系列用Rust编程语言编写了一个小操作系统
+      image: https://os.phil-opp.com/favicon.ico
     - name: NEUQ 龙芯实验室博客
       link: https://loongson-neuq.pages.dev
       description: 东北大学秦皇岛分校龙芯实验室博客
       image: https://loongson-neuq.pages.dev/img/avatar_hu27a039529b0e16f185ca51fbed76013f_26164_300x0_resize_box_3.png
+    - name: Demystifying Containers
+      link: https://medium.com/@saschagrunert/demystifying-containers-part-i-kernel-space-2c53d6979504
+      description: "Part I: Kernel Space"
+      image: null
+
+- category: Compiler
+  icon: fa-solid fa-retweet
+  items:
+    - name: 北大编译实践在线文档
+      link: https://pku-minic.github.io/online-doc
+      description: 欢迎各位同学选择编译原理课程实践!
+      image: https://pku-minic.github.io/online-doc/assets/icons/favicon.ico
+    - name: 使用 C 语言实现协程
+      link: https://mthli.xyz/coroutines-in-c
+      description: 本文译自 PuTTY 的作者 Simon Tatham 的文章 Coroutines in C
+      image: https://mthli.xyz/static/f165042f9f334601a4ff4a1f1b0b0de2/b315d/profile-pic.jpg
+
+- category: Frontend
+  icon: fa-solid fa-code
+  items:
+    - name: Expo Documentation
+      link: https://docs.expo.dev/get-started/create-a-project
+      description: Create amazing apps that run everywhere
+      image: https://docs.expo.dev/static/images/favicon.ico
+    - name: Kotlin Multiplatform Development
+      link: https://www.jetbrains.com/help/kotlin-multiplatform-dev/multiplatform-ktor-sqldelight.html
+      description: Create a multiplatform app using Ktor and SQLDelight
+      image: https://www.jetbrains.com/favicon.ico
+
+- category: Backend
+  icon: fa-solid fa-server
+  items:
+    - name: Ktor Server
+      link: https://ktor.io/docs/server-create-a-new-project.html#create-project
+      description: Create, open and run a new Ktor project
+      image: https://resources.jetbrains.com/storage/products/company/brand/logos/Ktor_icon.png
+
+- category: Electronic
+  icon: fa-solid fa-microchip
+  items:
+    - name: Raspberry Pi 树莓派
+      link: https://pidoc.cn
+      description: 中文版文档
+      image: https://pidoc.cn/favicon.ico
+
+- category: Docs
+  icon: fa-solid fa-book-skull
+  items:
+    - name: The RISC-V Instruction Set Manual Volume I
+      link: https://drive.google.com/file/d/1uviu1nH-tScFfgrovvFCrj7Omv8tFtkp/view?pli=1
+      description: Unprivileged Architecture
+      image: https://riscv.org/favicon.ico
