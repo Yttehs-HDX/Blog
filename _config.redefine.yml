@@ -196,18 +196,17 @@ navbar:
     #   path: https://status.ohevan.com/
     #   icon: fa-regular fa-chart-bar
     About: 
-       icon: fa-regular fa-user
-       submenus:
-         Source: https://github.com/Yttehs-HDX/Blog
-         Me: https://github.com/Yttehs-HDX
-         Resume: https://resume.shettydev.com
+      icon: fa-regular fa-user
+      submenus:
+        Source: https://github.com/Yttehs-HDX/Blog
+        Me: https://github.com/Yttehs-HDX
+        Resume: https://resume.shettydev.com
     #     Github: https://github.com/Yttehs-HDX/Blog
     #     Blog: https://ohevan.com
     #     Friends: /friends
-    Links:
-        icon: fa-solid fa-link
-        submenus:
-          Friends: /friends
+    Friends:
+      icon: fa-solid fa-rss
+      path: /friends
     # Links: 
     #   icon: fa-regular fa-link
     #   submenus:
