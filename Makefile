@@ -18,4 +18,4 @@ preview:
 	hexo server
 
 clean:
-	rm -r public
+	rm -rf public
