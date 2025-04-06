@@ -1,0 +1,15 @@
+- category: Basic
+  icon: fa-folder
+  items:
+    - name: CS 自学指南
+      link: https://csdiy.wiki
+      description: 这是一本计算机的自学指南
+      image: https://raw.githubusercontent.com/PKUFlyingPig/cs-self-learning/refs/heads/master/docs/images/favicon.ico
+    - name: 菜鸟教程
+      link: https://www.runoob.com
+      description: 学的不仅是技术，更是梦想！
+      image: https://www.runoob.com/favicon.ico
+    - name: The Missing Semester of Your CS Education
+      link: https://missing-semester-cn.github.io
+      description: 计算机教育中缺失的一课
+      image: https://missing-semester-cn.github.io/favicon.ico
