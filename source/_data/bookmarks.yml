@@ -53,6 +53,10 @@
       link: https://uiverse.io
       description: The Largest Library of Open-Source UI
       image: https://uiverse.io/favicon.ico
+    - name: Shields.io
+      link: https://shields.io
+      description: Concise, consistent, and legible badges
+      image: https://shields.io/img/logo.png
 
 - category: Archbase
   icon: fa-solid fa-sitemap
