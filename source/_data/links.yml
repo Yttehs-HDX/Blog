@@ -1,12 +1,12 @@
-- links_category: Friends
-  description: Friends
+- links_category: Sorted by alpha
+  description:
   has_thumbnail: false
   list:
     - name: Caiyi Shyu
-      link: https://blog.caiyi1.me
+      link: https://blog.caiyi1.me/
       description: Cai1Hsu's blog
       avatar: https://avatars.githubusercontent.com/u/47081443?v=4
     - name: 残页的小博客
-      link: https://blog.canyie.top
+      link: https://blog.canyie.top/
       description: Android
       avatar: https://blog.canyie.top/data/image/avatar_new.jpg
