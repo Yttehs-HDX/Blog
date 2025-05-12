@@ -15,6 +15,10 @@ excerpt: 使用 Workflow 创建高度自定义的 Badge
 
 在 GitHub 及开发相关环境中， badge （徽章）通常指的是一种在项目README文档或仓库主页上显示的小图标，用来展示项目的状态、质量、构建情况等信息。 badge 很常见，常见于开源项目的首页。
 
+下图就是一个纯文本的 badge ：
+
+![Custom badge](https://img.shields.io/badge/Custom-Badge-blue)
+
 #### 典型的 Badge 包括
 
 - 构建状态（ Build Status ）：显示 CI/CD （如 GitHub Actions 、 Travis CI ）的构建是否通过。
