@@ -89,8 +89,8 @@ _以上内容来自 [Copilot](https://github.com/copilot/)_
 代码逻辑如下，脚本不是本文的重点，本文不做赘述：
 
 - 读取项目根目录的 [`Cargo.toml`](https://github.com/kokuu-wakayuki/rustlings/blob/main/Cargo.toml) 文件，获取题目。
-- 使用 `rustlings run <test_name>` 的返回值判断是否通过。
-- 统计通过的题目的数量，打印输出。
+- 读取项目根目录的 [`.rustlings-state.txt`](https://github.com/kokuu-wakayuki/rustlings/blob/main/.rustlings-state.txt) 文件，获取通过的题目。
+- 统计两者的数量，打印输出。
 
 #### Makefile
 
