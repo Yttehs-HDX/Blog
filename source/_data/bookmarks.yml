@@ -126,7 +126,7 @@
       description: Create, open and run a new Ktor project
       image: https://resources.jetbrains.com/storage/products/company/brand/logos/Ktor_icon.png
 
-- category: Electronic
+- category: Embedded
   icon: fa-solid fa-microchip
   items:
     - name: Raspberry Pi 树莓派
