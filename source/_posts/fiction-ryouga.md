@@ -3,7 +3,6 @@ title: 小说 - 凌驾
 date: 2025-06-02 23:49:26
 tags: [Fiction]
 catagory: [Fiction, Short]
-author: [Shetty, YYYY]
 ---
 
 秋高气爽，惠风和畅。我望了望远处的山丘，那抹绿色已然黯然失色。
