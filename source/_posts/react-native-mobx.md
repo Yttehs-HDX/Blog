@@ -2,7 +2,7 @@
 title: React Native MobX
 date: 2025-03-09 19:43:43
 tags: [Guide, Framework, React]
-category: [Gudie, Framework]
+category: [Guide, Framework]
 thumbnail: /image/react-native-mobx/head.webp
 excerpt: 如何在 React Native 项目中实现 MVVM 架构
 ---
