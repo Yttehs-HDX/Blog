@@ -77,6 +77,10 @@
       link: https://learningos.cn/rCore-Tutorial-Guide-2025S
       description: "rCore-Tutorial-Guide 2025 春季学期"
       image: https://opencamp.cn/favicon.ico
+    - name: eBPF
+      link: https://ebpf.io/
+      description: 动态地编程内核以实现高效的网络、可观测性、追踪和安全性
+      image: https://ebpf.io/favicon-32x32.png
     - name: OSDev wiki
       link: https://wiki.osdev.org
       description: Welcome to OSDev.org
