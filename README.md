@@ -2,6 +2,7 @@
 
 [![CI](https://github.com/Yttehs-HDX/Blog/actions/workflows/ci.yml/badge.svg)](https://github.com/Yttehs-HDX/Blog/actions/workflows/ci.yml)
 [![Dependabot Updates](https://github.com/Yttehs-HDX/Blog/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/Yttehs-HDX/Blog/actions/workflows/dependabot/dependabot-updates)
+[![CodeQL](https://github.com/Yttehs-HDX/Blog/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/Yttehs-HDX/Blog/actions/workflows/github-code-scanning/codeql)
 
 Shetty Yttehs's personal blog
 
