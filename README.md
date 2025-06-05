@@ -10,6 +10,9 @@ Theme: `Redefine`
 
 [blog.shettydev.com](https://blog.shettydev.com)
 
+- `Vercel` deploy (default): [blog-vc.shettydev.com](https://blog-vc.shettydev.com/)
+- `Cloudflare Pages` deploy: [blog-cf.shettydev.com](https://blog-cf.shettydev.com/)
+
 ## License
 
 Project: `MIT`
