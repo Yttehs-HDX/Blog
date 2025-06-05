@@ -19,6 +19,6 @@ Theme: `Redefine`
 
 ## License
 
-Project: `MIT`
+- `Project`: MIT
 
-Posts: At the bottom of each post.
+- `Posts`: CC BY-NC-SA 4.0
