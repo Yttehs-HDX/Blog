@@ -1,5 +1,8 @@
 # Blog
 
+[![CI](https://github.com/Yttehs-HDX/Blog/actions/workflows/ci.yml/badge.svg)](https://github.com/Yttehs-HDX/Blog/actions/workflows/ci.yml)
+[![Dependabot Updates](https://github.com/Yttehs-HDX/Blog/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/Yttehs-HDX/Blog/actions/workflows/dependabot/dependabot-updates)
+
 Shetty Yttehs's personal blog
 
 Frame: `Hexo`
