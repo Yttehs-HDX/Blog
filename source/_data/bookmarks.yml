@@ -125,6 +125,10 @@
 - category: Backend
   icon: fa-solid fa-server
   items:
+    - name: How HTTPS Works
+      link: https://howhttps.works/
+      description: How HTTPS works ...in a comic! 🌈 🎉 🍕
+      image: https://howhttps.works/assets/images/favicon.png
     - name: Ktor Server
       link: https://ktor.io/docs/server-create-a-new-project.html#create-project
       description: Create, open and run a new Ktor project
