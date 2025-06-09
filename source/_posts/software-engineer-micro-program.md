@@ -3,7 +3,7 @@ title: 用软件工程的思维进行单片机编程
 date: 2025-06-09 11:22:29
 tags: [Guide, Embedded, CH32]
 category: [Guide, Embedded]
-thumbnail: image/software-engineer-micro-program/head.webp
+thumbnail: /image/software-engineer-micro-program/head.webp
 excerpt: 软件开发者的单片机初体验
 ---
 
