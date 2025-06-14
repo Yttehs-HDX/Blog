@@ -7,13 +7,23 @@
 # <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
+data_set:
+  info_subtitle: &info_subtitle "Share my ideas"
+  sidebar_announcement: &sidebar_announcement "Share my ideas"
+  subtitle_string: &subtitle_string
+    - "Study the foundation rather than the framework"
+    - "Don’t be afraid to write non-conforming code"
+    - "Programs are meant to be read by humans and only incidentally for computers to execute"
+    - "Machines are always right"
+
+
 # BASIC INFORMATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 # Docs: https://redefine-docs.ohevan.com/basic/info
 info:
   # Site title
   title: Shetty's Blog
   # Site subtitle
-  subtitle: Share my ideas
+  subtitle: *info_subtitle
   # Author name
   author: Shetty Yttehs
   # Site URL
@@ -130,7 +140,7 @@ home_banner:
   title: Welcome! We have waited for a long time
   # Home banner subtitle
   subtitle:
-    text: ['Study the foundation rather than the framework', 'Don’t be afraid to write non-conforming code', 'Programs are meant to be read by humans and only incidentally for computers to execute', 'Machines are always right']
+    text: *subtitle_string
     hitokoto:  # 一言配置
       enable: false # Whether to enable hitokoto
       show_author: false # Whether to show author
@@ -254,7 +264,7 @@ home:
     enable: true # Whether to enable sidebar
     position: left # Sidebar position. left, right
     first_item: info # First item in sidebar. menu, info
-    announcement: Share my ideas # Announcement text
+    announcement: *sidebar_announcement # Announcement text
     show_on_mobile: true # Whether to show sidebar navigation on mobile sheet menu
     links:
       Shuoshuo:
