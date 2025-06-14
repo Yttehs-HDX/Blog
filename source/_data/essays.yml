@@ -25,8 +25,9 @@
       width=300
     />
   date: 2025-06-14T00:56:49+08:00
+
 - content: |
-  Turing complete 😋😋😋!
+    Turing complete 😋😋😋!
     <img
       src="/shuoshuo/image/turing_complete.webp"
       alt="turing complete"
