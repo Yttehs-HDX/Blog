@@ -13,7 +13,7 @@ info:
   # Site title
   title: Shetty's Blog
   # Site subtitle
-  subtitle: "Share my ideas"
+  subtitle: Share my ideas
   # Author name
   author: Shetty Yttehs
   # Site URL
@@ -119,7 +119,7 @@ fontawesome: # Pro v6.2.1
 home_banner_dataset:
   subtitle_list: &subtitle_list
     - "Study the foundation rather than the framework"
-    - "Don’t be afraid to write non-conforming code"
+    - "Don't be afraid to write non-conforming code"
     - "Programs are meant to be read by humans and only incidentally for computers to execute"
     - "Machines are always right"
 
@@ -261,7 +261,7 @@ home:
     enable: true # Whether to enable sidebar
     position: left # Sidebar position. left, right
     first_item: info # First item in sidebar. menu, info
-    announcement: "Share my ideas" # Announcement text
+    announcement: Share my ideas # Announcement text
     show_on_mobile: true # Whether to show sidebar navigation on mobile sheet menu
     links:
       Shuoshuo:
