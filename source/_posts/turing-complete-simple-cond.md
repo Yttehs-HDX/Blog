@@ -1,5 +1,5 @@
 ---
-title: 图灵完备 8 元件 COND
+title: 图灵完备 8 元件 COND - 加法器解法
 date: 2025-06-15 23:05:12
 tags: [Guide, TuringComplete]
 category: [Guide, TuringComplete]
