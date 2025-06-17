@@ -134,6 +134,14 @@
       description: Create, open and run a new Ktor project
       image: https://resources.jetbrains.com/storage/products/company/brand/logos/Ktor_icon.png
 
+- category: AI
+  icon: fa-solid fa-robot
+  items:
+    - name: Hugging Face
+      link: https://huggingface.co/learn
+      description: 🤗 Hugging Face
+      image: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+
 - category: Embedded
   icon: fa-solid fa-microchip
   items:
