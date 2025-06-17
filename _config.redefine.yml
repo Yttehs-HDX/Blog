@@ -220,9 +220,10 @@ navbar:
     About: 
       icon: fa-regular fa-user
       submenus:
-        Source: https://github.com/Yttehs-HDX/Blog
-        Me: https://github.com/Yttehs-HDX
+        Me: /profile
+        GitHub: https://github.com/Yttehs-HDX
         Resume: https://resume.shettydev.com
+        Source: https://github.com/Yttehs-HDX/Blog
     #     Github: https://github.com/Yttehs-HDX/Blog
     #     Blog: https://ohevan.com
     #     Friends: /friends
