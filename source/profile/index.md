@@ -27,11 +27,13 @@ date: 2025-06-18 00:04:32
 
 ### 自我介绍
 
-**Shetty Yttehs** です。英文名是我在初中绞尽脑汁想出来的，当时英语老师要求每个人起一个英文名。中文名和日文名是**虚空若雪**（Xūkōng Ruòxuě，Kokuu Wakayuki），起源于我的短篇小说[《就像雪一样》](https://blog.shettydev.com/2025/06/16/fiction-wakayuki/#%E5%90%8E%E8%AE%B0)。
+**Shetty Yttehs** です。英文名是我在初中绞尽脑汁想出来的，当时英语老师要求每个人起一个英文名。中文名和日文名是**虚空若雪**（Xūkōng Ruòxuě，Kokuu Wakayuki），起源于我的短篇小说[《就像雪一样》](/2025/06/16/fiction-wakayuki/#%E5%90%8E%E8%AE%B0)。
 
 最喜欢的 emoji 是 `😋`，一种心满意足的感觉。
 
 擅长简洁的 CLI，但是讨厌 Gradle 🐘（绝对没有讨厌 Kotlin）；不擅长 GUI 和 Windows 🪟。
+
+讨厌微积分，喜欢离散。
 
 喜欢 Google 设计的 Material Design 3 风格。
 
