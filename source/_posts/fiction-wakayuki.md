@@ -1,8 +1,8 @@
 ---
 title: 小说 - 就像雪一样
 date: 2025-06-16 21:27:31
-tags: [Fiction]
-catagory: [Fiction, Short]
+tags: [Literary, Fiction]
+catagory: [Literary, Fiction, Short]
 ---
 
 雪花从天空落下的场景，是怎么样的呢？
