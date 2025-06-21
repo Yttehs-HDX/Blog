@@ -2,7 +2,7 @@
 title: GitHub Workflow Custom Badge
 date: 2025-05-10 12:58:52
 tags: [Guide, GitHub, Action]
-catagory: [Guide, GitHub]
+category: [Guide, GitHub]
 thumbnail: /image/github-workflow-custom-badge/head.webp
 excerpt: 使用 Workflow 创建高度自定义的 Badge
 ---

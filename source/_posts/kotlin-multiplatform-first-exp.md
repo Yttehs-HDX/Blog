@@ -2,7 +2,7 @@
 title: Kotlin Multiplatform First Experience
 date: 2024-12-17 19:53:52
 tags: [Lang, Kotlin, Android, Guide]
-catagory: [Guide, Lang, Kotlin]
+category: [Guide, Lang, Kotlin]
 thumbnail: /image/kotlin-multiplatform-first-exp/head.webp
 excerpt: Details in Kotlin Multiplatform Project
 ---
