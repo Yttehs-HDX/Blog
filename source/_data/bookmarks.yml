@@ -57,6 +57,10 @@
       link: https://shields.io
       description: Concise, consistent, and legible badges
       image: https://shields.io/img/logo.png
+    - name: 这b班上得值不值·测算版
+      link: https://worthjob.zippland.com/
+      description: 如果觉得好用，请给项目点个⭐Star吧！
+      image: https://worthjob.zippland.com/favicon.ico
 
 - category: Archbase
   icon: fa-solid fa-sitemap
