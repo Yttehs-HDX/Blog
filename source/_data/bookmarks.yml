@@ -125,6 +125,10 @@
       link: https://www.jetbrains.com/help/kotlin-multiplatform-dev/multiplatform-ktor-sqldelight.html
       description: Create a multiplatform app using Ktor and SQLDelight
       image: https://www.jetbrains.com/favicon.ico
+    - name: Tauri 2.0
+      link: https://v2.tauri.app/
+      description: Create small, fast, secure, cross-platform applications
+      image: https://v2.tauri.app/favicon.ico
 
 - category: Backend
   icon: fa-solid fa-server
