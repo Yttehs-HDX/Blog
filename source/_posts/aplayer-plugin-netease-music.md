@@ -41,7 +41,6 @@ aplayer:
       cover: # audio cover url
       lrc: # audio cover lrc
       # .... you can add more audios here
-
 ```
 
 ### 歌曲名和作家
