@@ -14,9 +14,9 @@
       description: 计算机教育中缺失的一课
       image: https://missing-semester-cn.github.io/favicon.ico
     - name: 东秦计科人生存手册
-      link: https://manual.caiyi1.me
+      link: https://neuq-manual.vercel.app/
       description: 暑假不发霉手册
-      image: https://manual.caiyi1.me/favicon.ico
+      image: https://neuq-manual.vercel.app/favicon.ico
 
 - category: Tutorials
   icon: fa-solid fa-book-open-reader
