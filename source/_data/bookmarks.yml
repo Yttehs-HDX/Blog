@@ -153,6 +153,10 @@
 - category: Embedded
   icon: fa-solid fa-microchip
   items:
+    - name: ESPRESSIF
+      link: https://docs.espressif.com/projects/rust/book/
+      description: The Rust on ESP Book
+      image: https://docs.espressif.com/projects/rust/book/favicon.svg
     - name: Raspberry Pi 树莓派
       link: https://pidoc.cn
       description: 中文版文档
