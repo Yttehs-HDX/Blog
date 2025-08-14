@@ -48,7 +48,7 @@
     - name: Compiler Explorer
       link: https://godbolt.org
       description: Online assembly parser
-      image: https://godbolt.org/favicon.ico
+      image: https://static.ce-cdn.net/favicon.ico
     - name: UIVERSE
       link: https://uiverse.io
       description: The Largest Library of Open-Source UI
@@ -128,7 +128,7 @@
     - name: Tauri 2.0
       link: https://v2.tauri.app/
       description: Create small, fast, secure, cross-platform applications
-      image: https://v2.tauri.app/favicon.ico
+      image: https://v2.tauri.app/favicon.svg
 
 - category: Backend
   icon: fa-solid fa-server
