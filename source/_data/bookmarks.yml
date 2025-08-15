@@ -157,6 +157,10 @@
       link: https://docs.espressif.com/projects/rust/book/
       description: The Rust on ESP Book
       image: https://docs.espressif.com/projects/rust/book/favicon.svg
+    - name: Wokwi
+      link: https://wokwi.com/
+      description: World's most advanced ESP32 simulator
+      image: https://wokwi.com/favicon.png
     - name: Raspberry Pi 树莓派
       link: https://pidoc.cn
       description: 中文版文档
