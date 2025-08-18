@@ -449,13 +449,13 @@ vim /etc/pacman.conf
 Intel Drivers:
 
 ```bash
-pacman -S intel-ucode mesa lib32-mesa vulkan-intel lib32-vulkan-intel intel-media-driver libva-intel-driver lib32-libva-intel-driver
+pacman -S intel-ucode mesa lib32-mesa mesa-utils vulkan-intel lib32-vulkan-intel vulkan-tools intel-media-driver libva-intel-driver lib32-libva-intel-driver
 ```
 
 AMD Drivers:
 
 ```bash
-pacman -S amd-ucode mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon libva-mesa-driver lib32-libva-mesa-driver mesa-vdpau lib32-mesa-vdpau
+pacman -S amd-ucode mesa lib32-mesa mesa-utils vulkan-radeon lib32-vulkan-radeon vulkan-tools libva-mesa-driver lib32-libva-mesa-driver mesa-vdpau lib32-mesa-vdpau
 ```
 
 ### Install Nvidia Drivers ( Optional )
