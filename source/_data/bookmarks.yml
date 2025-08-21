@@ -61,6 +61,10 @@
       link: https://worthjob.zippland.com/
       description: 如果觉得好用，请给项目点个⭐Star吧！
       image: https://worthjob.zippland.com/favicon.ico
+    - name: 名字Gay指数计算器
+      link: http://akanyi.github.io/Gaynum
+      description: 输入一个名字，看看“科学”的计算结果！
+      image: null
 
 - category: Archbase
   icon: fa-solid fa-sitemap
