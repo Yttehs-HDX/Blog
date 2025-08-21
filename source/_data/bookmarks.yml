@@ -65,6 +65,10 @@
       link: http://akanyi.github.io/Gaynum
       description: 输入一个名字，看看“科学”的计算结果！
       image: null
+    - name: Mikutap
+      link: https://miku.sci-fifans.net/
+      description: Raise the volume and enjoy!
+      image: https://miku.sci-fifans.net/favicon.ico
 
 - category: Archbase
   icon: fa-solid fa-sitemap
