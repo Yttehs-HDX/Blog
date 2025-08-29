@@ -196,5 +196,9 @@
 
 - content: |
     魔都观光再一度😋。
-    （图片占位符）
+    <img
+      src="/shuoshuo/image/shanghai.webp"
+      alt="shanghai"
+      width=300
+    />
   date: 2025-08-27T17:12:19
