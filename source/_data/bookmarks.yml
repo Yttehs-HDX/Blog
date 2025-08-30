@@ -165,6 +165,10 @@
       link: https://docs.espressif.com/projects/rust/book/
       description: The Rust on ESP Book
       image: https://docs.espressif.com/projects/rust/book/favicon.svg
+    - name: ESPRESSIF
+      link: https://docs.esp-rs.org/std-training/
+      description: Embedded Rust on Espressif
+      image: https://docs.esp-rs.org/std-training/favicon.svg
     - name: Wokwi
       link: https://wokwi.com/
       description: World's most advanced ESP32 simulator
