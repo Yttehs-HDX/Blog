@@ -69,6 +69,10 @@
       link: https://miku.sci-fifans.net/
       description: Raise the volume and enjoy!
       image: https://miku.sci-fifans.net/favicon.ico
+    - name: AIDN
+      link: https://aidn.jp/
+      description: daniwell official website
+      image: null
 
 - category: Archbase
   icon: fa-solid fa-sitemap
