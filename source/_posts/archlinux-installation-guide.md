@@ -517,7 +517,7 @@ Reboot to Windows and adjust GPU settings to Optimus.
 ```bash
 pacman -S alsa-utils alsa-plugins alsa-oss alsa-firmware alsa-ucm-conf
 pacman -S sof-firmware
-pacman -S pipeware pipeware-alsa pipeware-audio pipeware-pulse pipeware-jack
+pacman -S pipewire pipewire-alsa pipewire-audio pipewire-pulse pipewire-jack
 ```
 
 ## Install KDE Plasma Desktop
