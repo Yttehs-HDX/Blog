@@ -3,8 +3,8 @@
   has_thumbnail: false
   list:
     - name: Caiyi Shyu's Blog
-      link: https://blog.caiyi1.me/
-      description: Cai1Hsu's blog
+      link: https://github.com/Cai1Hsu/blog
+      description: "null"
       avatar: https://avatars.githubusercontent.com/u/47081443?v=4
     - name: 残页的小博客
       link: https://blog.canyie.top/
