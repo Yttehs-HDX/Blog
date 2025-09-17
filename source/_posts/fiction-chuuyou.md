@@ -51,5 +51,5 @@ category: [Literary, Fiction, Short]
 
 ## 作者
 
-- `虚空若雪`：创作。
+- [`虚空若雪`](https://github.com/Yttehs-HDX)：创作。
 - [`幻月之诗`](https://my.qidian.com/author/429780354/)：修改润色。

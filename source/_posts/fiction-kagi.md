@@ -55,4 +55,4 @@ category: [Literary, Fiction, Short]
 
 ## 作者
 
-- `虚空若雪`。
+- [`虚空若雪`](https://github.com/Yttehs-HDX)。

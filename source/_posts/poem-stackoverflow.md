@@ -41,5 +41,4 @@ category: [Literary, Poem, Modern]
 
 ## 作者
 
-- `虚空若雪`。
-
+- [`虚空若雪`](https://github.com/Yttehs-HDX)。
