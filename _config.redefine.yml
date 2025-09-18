@@ -459,11 +459,11 @@ plugins:
     enable: true # Whether to enable
     type: fixed # fixed, mini
     audios:
-      - name: 深藍
-        artist: ルルティア
-        url: https://music.163.com/song/media/outer/url?id=22724676.mp3
-        cover: https://p2.music.126.net/kprSJv0yHoiwyJ7pbuEVxg==/834529325505669.jpg
-        lrc: https://gist.githubusercontent.com/Yttehs-HDX/6f133b5a8f35475404e1c581f3045b4a/raw/80a621dc3efdfdaa5bb161ce705904bf4d8080b0/22724676.lrc
+      - name: ダイダイダイダイダイキライ
+        artist: 雨良 Amala / 初音ミク / 重音テト
+        url: https://music.163.com/song/media/outer/url?id=2686166750.mp3
+        cover: https://p2.music.126.net/Dmp3ijpnsOZh5Ul2isjzOg==/109951170626550046.jpg
+        lrc: https://gist.githubusercontent.com/Yttehs-HDX/5380d7b06754c155f20735f17e927d2a/raw/8f29328b049197d651d78fbc8562197e1c11de31/2686166750.lrc
 #      - name: # audio name
 #        artist: # audio artist
 #        url: # audio url
