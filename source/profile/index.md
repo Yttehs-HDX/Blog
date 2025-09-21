@@ -21,9 +21,14 @@ date: 2025-06-18 00:04:32
   <td width="61.8%">
     <!-- Introduction -->
     <p>全日制在读本科生，目前大三。电子信息工程专业，但是非常喜欢计算机科学，未来也打算从事这方面的工作。</p>
-    <p>头像是 Re0 中的<strong>艾米莉亚（E.M.T）</strong>和<strong>雷姆（Rem）</strong>。</p>
   </td>
 </tr></table>
+
+### 头像
+
+头像是 Re0 中的**爱蜜莉雅（E.M.T）**和**雷姆（Rem）**。
+
+创作自画师 AeRonMeri（[AERONM@bilibili.com](https://space.bilibili.com/1151788364)，[Aeronmeri_19198@x.com](https://x.com/Aeronmeri_19198)）。
 
 ### 自我介绍
 
