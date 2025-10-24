@@ -8,4 +8,5 @@ public/
 _multiconfig.yml
 
 # direnv
+.envrc
 .direnv/
