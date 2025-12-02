@@ -161,6 +161,10 @@
       link: https://huggingface.co/learn
       description: 🤗 Hugging Face
       image: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+    - name: Practical Deep Learning for Coders
+      link: https://course.fast.ai/
+      description: Practical Deep Learning
+      image: null
 
 - category: Embedded
   icon: fa-solid fa-microchip
