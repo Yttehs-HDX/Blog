@@ -122,6 +122,7 @@ home_banner_dataset:
     - "Don't be afraid to write non-conforming code"
     - "Programs are meant to be read by humans and only incidentally for computers to execute"
     - "Machines are always right"
+    - "Refactor only when a duplicate proves itself"
 
 # Docs: https://redefine-docs.ohevan.com/home/home_banner
 home_banner:
