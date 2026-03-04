@@ -279,3 +279,12 @@
 - content: |
     Nix 函数是柯里化的。
   date: 2026-01-19T00:22:06+08:00
+
+- content: |
+    首次贡献开源项目😋！
+    <img
+      src="/shuoshuo/image/first_commit.webp"
+      alt="first commit"
+      width=300
+    />
+  date: 2026-03-04T18:15:51+08:00
