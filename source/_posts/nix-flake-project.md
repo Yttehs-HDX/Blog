@@ -1,10 +1,10 @@
 ---
-title: Nix Flake 项目
+title: 我的 Nix Flake 项目结构设计
 date: 2026-01-30 22:41:00
 tags: [Nix, OS]
 category: ["Tech", "Nix"]
 thumbnail: ../image/nix-flake-project/head.webp
-excerpt: Nix Flake 项目的思路和一些想法
+excerpt: 围绕分层配置、模块复用与可复现环境的设计思路整理
 ---
 
 最近一个月我都在折腾一个项目：[**Nix-flake-config**](https://github.com/Yttehs-HDX/Nix-flake-config)。
