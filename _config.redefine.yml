@@ -177,15 +177,17 @@ home_banner:
     style: center # default, reverse, center
     # Social links
     links:
-      github: https://github.com/Yttehs-HDX # your GitHub URL
-      instagram: # your Instagram URL
-      zhihu:  # your ZhiHu URL
-      twitter: https://x.com/Shetty_Yttehs # your twitter URL
-      email: shetty.yttehs@outlook.com # your email
+      - icon: github
+        url: https://github.com/Yttehs-HDX # your GitHub URL
+      - icon: twitter
+        url: https://x.com/Shetty_Yttehs # your twitter URL
+      - icon: email
+        url: shetty.yttehs@outlook.com # your email
       # ...... # you can add more
     # Social links with QRcode drawers
     qrs:
-      weixin:  # your Wechat QRcode image URL
+      # - icon: weixin
+      #   qr: # your Wechat QRcode image URL
       # ...... # you can add more
 # HOME BANNER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
