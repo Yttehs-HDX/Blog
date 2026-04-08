@@ -10,10 +10,6 @@
     in {
       devShells.${system}.default = pkgs.mkShell {
         buildInputs = with pkgs; [ hexo-cli nodejs python314 libwebp ];
-
-        shellHook = ''
-          echo "Nix dev shell"
-        '';
       };
     };
 }
