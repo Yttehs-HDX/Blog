@@ -1,13 +1,19 @@
 ---
 title: 我的 Nix Flake 项目结构设计
 date: 2026-01-30 22:41:00
+expires: 2026-04-13 00:00:00
 tags: [Nix, OS]
 category: ["Tech", "Nix"]
 thumbnail: ../image/nix-flake-project/head.webp
 excerpt: 围绕分层配置、模块复用与可复现环境的设计思路整理
 ---
 
-最近一个月我都在折腾一个项目：[**Nix-flake-config**](https://github.com/Yttehs-HDX/Nix-flake-config)。
+{% notel red Caution %}
+这个项目有很多不完善的地方，甚至有些设计上的问题，我已经建立了新的项目 [nix-flake-config](https://github.com/Yttehs-HDX/nix-flake-config)。
+本文已经过时了，但是我觉得它仍然有一定的参考价值，尤其是对于想要设计个人 Nix 配置项目的人来说，可以从中吸取一些经验教训。
+{% endnotel %}
+
+最近一个月我都在折腾一个项目：[**_nix-flake-config**](https://github.com/Yttehs-HDX/_nix-flake-config)。
 
 ## 前言
 本文头图来自 [Nix 官网](https://nixos.org/)。
