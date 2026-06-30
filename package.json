@@ -30,5 +30,15 @@
     "hexo-theme-redefine": "^2.9.0",
     "hexo-wordcount": "^6.0.1",
     "nodejieba": "^3.5.5"
+  },
+  "overrides": {
+    "cross-spawn": "7.0.6",
+    "fast-xml-parser": "5.7.0",
+    "got": "11.8.6",
+    "http-cache-semantics": "4.1.1",
+    "semver-regex": "3.1.4",
+    "tar": "7.5.16",
+    "trim-newlines": "3.0.1",
+    "uuid": "11.1.1"
   }
 }
