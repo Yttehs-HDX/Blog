@@ -9,8 +9,7 @@
       pkgs = import nixpkgs { inherit system; };
     in {
       devShells.${system}.default = pkgs.mkShell {
-        buildInputs = with pkgs; [ hexo-cli nodejs python314 libwebp ];
+        buildInputs = with pkgs; [ nodejs_22 python314 libwebp ];
       };
     };
 }
-

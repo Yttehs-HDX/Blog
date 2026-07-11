@@ -2,6 +2,9 @@
   "name": "hexo-site",
   "version": "0.0.0",
   "private": true,
+  "engines": {
+    "node": "22.x"
+  },
   "scripts": {
     "build": "hexo generate",
     "clean": "hexo clean",
@@ -13,7 +16,6 @@
   },
   "dependencies": {
     "hexo": "^8.1.2",
-    "hexo-all-minifier": "^0.5.7",
     "hexo-filter-mermaid-diagrams": "^1.0.5",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
@@ -30,5 +32,15 @@
     "hexo-theme-redefine": "^2.9.0",
     "hexo-wordcount": "^6.0.1",
     "nodejieba": "^3.5.5"
+  },
+  "overrides": {
+    "cross-spawn": "7.0.6",
+    "fast-xml-parser": "5.7.0",
+    "got": "11.8.6",
+    "http-cache-semantics": "4.1.1",
+    "semver-regex": "3.1.4",
+    "tar": "7.5.16",
+    "trim-newlines": "3.0.1",
+    "uuid": "11.1.1"
   }
 }

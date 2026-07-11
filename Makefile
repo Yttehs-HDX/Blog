@@ -3,19 +3,15 @@
 all: deploy
 
 dependencies:
-	@if ! command -v hexo > /dev/null; then \
-		echo "Installing Hexo..."; \
-		npm install hexo-cli -g; \
-	fi
-	npm install
+	npm ci
 
 deploy: dependencies
 	@echo "Building site..."
-	hexo generate
+	npm run build
 
 preview:
 	@echo "Starting server..."
-	hexo server
+	npm run server
 
 clean:
 	rm -rf public
