@@ -2,6 +2,9 @@
   "name": "hexo-site",
   "version": "0.0.0",
   "private": true,
+  "engines": {
+    "node": "22.x"
+  },
   "scripts": {
     "build": "hexo generate",
     "clean": "hexo clean",
@@ -13,7 +16,6 @@
   },
   "dependencies": {
     "hexo": "^8.1.2",
-    "hexo-all-minifier": "^0.5.7",
     "hexo-filter-mermaid-diagrams": "^1.0.5",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",

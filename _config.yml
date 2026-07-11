@@ -106,9 +106,6 @@ theme: redefine
 deploy:
   type: ''
 
-# Resource compression
-all_minifier: true
-
 # Rss
 feed:
   enable: true
