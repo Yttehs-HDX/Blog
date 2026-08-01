@@ -126,10 +126,6 @@ Add the following lines at the very top:
 Server = https://mirrors.tuna.tsinghua.edu.cn/archlinux/$repo/os/$arch
 ```
 
-#### _Note: Remove sources from China after installation finished._
-
-- Info: the source provider from China has the ability to upload the **IP and other information** of users who installed qv2ray ( For example ) to the government server.
-
 ## Sync Time
 
 ```bash
@@ -421,7 +417,7 @@ Include = /etc/pacman.d/mirrorlist
 
 Add the following lines at the very bottom:
 
-- You may use other source but remember the [Note](#Note-Remove-sources-from-China-after-installation-finished).
+- You may use other source.
 
 ```
 [archlinuxcn]
